@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, D:/Escritorio/FPGA - CLASE/clase 3/two_bits_preescaler/two_preescaler.vhd
+source_file = 1, d:/quartus20/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/quartus20/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/quartus20/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/quartus20/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/Escritorio/FPGA - CLASE/clase 3/two_bits_preescaler/db/two_preescaler.cbx.xml
+design_name = two_preescaler
+instance = comp, \reloj_out~output\, reloj_out~output, two_preescaler, 1
+instance = comp, \reloj_int~input\, reloj_int~input, two_preescaler, 1
+instance = comp, \contador[0]~1\, contador[0]~1, two_preescaler, 1
+instance = comp, \contador[0]\, contador[0], two_preescaler, 1
+instance = comp, \contador[1]~0\, contador[1]~0, two_preescaler, 1
+instance = comp, \contador[1]\, contador[1], two_preescaler, 1

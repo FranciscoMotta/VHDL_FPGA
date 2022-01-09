@@ -1,0 +1,6 @@
+|two_preescaler
+reloj_int => contador[0].CLK
+reloj_int => contador[1].CLK
+reloj_out <= contador[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
