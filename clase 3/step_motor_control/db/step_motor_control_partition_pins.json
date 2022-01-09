@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "display_7_seg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display_7_seg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display_7_seg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display_7_seg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "display_7_seg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "display_7_seg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "display_7_seg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "salida_step[0]",
+					"strict" : false
+				},
+				{
+					"name" : "salida_step[1]",
+					"strict" : false
+				},
+				{
+					"name" : "salida_step[2]",
+					"strict" : false
+				},
+				{
+					"name" : "salida_step[3]",
+					"strict" : false
+				},
+				{
+					"name" : "reloj_in",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

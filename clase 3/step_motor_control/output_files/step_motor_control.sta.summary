@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'reloj_in'
+Slack : -2.710
+TNS   : -39.558
+
+Type  : Slow 1200mV 85C Model Setup 'contador[24]'
+Slack : -0.322
+TNS   : -0.340
+
+Type  : Slow 1200mV 85C Model Hold 'contador[24]'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'reloj_in'
+Slack : 0.465
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'reloj_in'
+Slack : -3.000
+TNS   : -40.175
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'contador[24]'
+Slack : -1.487
+TNS   : -4.461
+
+Type  : Slow 1200mV 0C Model Setup 'reloj_in'
+Slack : -2.324
+TNS   : -33.155
+
+Type  : Slow 1200mV 0C Model Setup 'contador[24]'
+Slack : -0.191
+TNS   : -0.191
+
+Type  : Slow 1200mV 0C Model Hold 'contador[24]'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'reloj_in'
+Slack : 0.417
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'reloj_in'
+Slack : -3.000
+TNS   : -40.175
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'contador[24]'
+Slack : -1.487
+TNS   : -4.461
+
+Type  : Fast 1200mV 0C Model Setup 'reloj_in'
+Slack : -0.610
+TNS   : -4.287
+
+Type  : Fast 1200mV 0C Model Setup 'contador[24]'
+Slack : 0.421
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'contador[24]'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'reloj_in'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'reloj_in'
+Slack : -3.000
+TNS   : -29.825
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'contador[24]'
+Slack : -1.000
+TNS   : -3.000
+
+------------------------------------------------------------
