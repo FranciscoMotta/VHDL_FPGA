@@ -1,0 +1,14 @@
+-- PAQUETES
+library ieee;
+use ieee.std_logic_1164.all;
+
+-- ENTIDAD 
+
+entity mux_basic_with is
+
+port( ints: in std_logic_vector(1 downto 0);
+		selec: in std_logic;
+		outs: out std_logic
+	 );
+
+end mux_basic_with;

@@ -1,0 +1,12 @@
+|flip_flop_jk
+J => JK_FUNC.IN0
+J => JK_FUNC.IN0
+K => JK_FUNC.IN1
+K => JK_FUNC.IN1
+reloj => Qn~reg0.CLK
+reloj => Ret.CLK
+reloj => Q~reg0.CLK
+Q <> Q~reg0
+Qn <> Qn~reg0
+
+

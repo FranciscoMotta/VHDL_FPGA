@@ -1,0 +1,21 @@
+-- PAQUETES 
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+-- Entidad 
+
+entity circuit_gates is
+	port( W,X,Y,Z: in std_logic;
+			S1,S2: out std_logic
+		 );
+end circuit_gates 
+
+-- Arquitectura 
+
+
+architecture func_circuit of circuit_gates is
+	begin
+			S1 <= (nand((not(W) and Z) and W)) and (not(W) or (X and Y));
+			S2 <= ((not(W) or (X and Y)) and (nand(not(W) and W));
+end func_circuit

@@ -1,0 +1,24 @@
+-- paquetes 
+library ieee;
+use ieee.std_logic_1164.all;
+
+-- Entidad
+
+entity mux_4to1 is
+
+port(
+		ints: in std_logic_vector(3 downto 0);
+		selec: in std_logic_vector(1 downto 0);
+		outs: out std_logic
+	 );
+end mux_4to1;
+
+-- Arquitectura
+
+architecture func_mux of mux_4to1 is
+begin 
+		with selec select outs <= ints(0) when "00",
+										  ints(1) when "01",
+										  ints(2) when "10", 
+										  ints(3) when others;
+end func_mux;

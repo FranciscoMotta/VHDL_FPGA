@@ -1,0 +1,11 @@
+|fan_controller
+p1 => fan2.IN0
+p1 => fan1.IN1
+p2 => fan1.IN0
+p2 => fan2.IN1
+selec => fan2.IN1
+selec => fan1.IN1
+fan1 <= fan1.DB_MAX_OUTPUT_PORT_TYPE
+fan2 <= fan2.DB_MAX_OUTPUT_PORT_TYPE
+
+

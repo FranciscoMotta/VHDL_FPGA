@@ -1,0 +1,25 @@
+-- paquetes
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+-- entidad
+
+entity counter_bits is
+	port( reloj: in std_logic;
+	       Q: out std_logic_vector(3 downto 0)
+	);
+end counter_bits;
+
+-- arquitectura
+
+architecture func_counter of counter_bits is
+	signal cont_tempo: std_logic_vector (3 downto 0); -- Registro temporal
+	begin
+		contador: process(reloj) -- creamos el proceso
+			begin
+				if rising_edge(reloj) then
+					cont_tempo <= cont_tempo + "0001";
+				end if;
+		end process;
+end func_counter;

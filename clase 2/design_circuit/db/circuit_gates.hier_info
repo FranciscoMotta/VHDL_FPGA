@@ -1,0 +1,13 @@
+|circuit_gates
+W => S1.IN1
+W => S1.IN0
+W => S1.IN1
+W => S2.IN0
+X => S1.IN0
+Y => S1.IN1
+Z => S1.IN1
+Z => S2.IN1
+S1 <= S1.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= S2.DB_MAX_OUTPUT_PORT_TYPE
+
+
