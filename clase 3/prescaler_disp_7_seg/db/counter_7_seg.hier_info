@@ -24,14 +24,14 @@ reloj_int => contador[21].CLK
 reloj_int => contador[22].CLK
 reloj_int => contador[23].CLK
 reloj_int => contador[24].CLK
-seg_7[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
-seg_7[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
-seg_7[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
-seg_7[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
-seg_7[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
-seg_7[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
-seg_7[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
-seg_7[7] <= <VCC>
-enable <= <GND>
+seg_7[0] << Mux6.DB_MAX_OUTPUT_PORT_TYPE
+seg_7[1] << Mux5.DB_MAX_OUTPUT_PORT_TYPE
+seg_7[2] << Mux4.DB_MAX_OUTPUT_PORT_TYPE
+seg_7[3] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+seg_7[4] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+seg_7[5] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+seg_7[6] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+seg_7[7] << <VCC>
+enable << <GND>
 
 

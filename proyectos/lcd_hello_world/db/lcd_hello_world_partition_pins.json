@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "datos_control[0]",
+					"strict" : false
+				},
+				{
+					"name" : "datos_control[1]",
+					"strict" : false
+				},
+				{
+					"name" : "datos_control[2]",
+					"strict" : false
+				},
+				{
+					"name" : "datos_control[3]",
+					"strict" : false
+				},
+				{
+					"name" : "datos_control[4]",
+					"strict" : false
+				},
+				{
+					"name" : "datos_control[5]",
+					"strict" : false
+				},
+				{
+					"name" : "datos_control[6]",
+					"strict" : false
+				},
+				{
+					"name" : "datos_control[8]",
+					"strict" : false
+				},
+				{
+					"name" : "datos_control[9]",
+					"strict" : false
+				},
+				{
+					"name" : "entrada_reloj",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

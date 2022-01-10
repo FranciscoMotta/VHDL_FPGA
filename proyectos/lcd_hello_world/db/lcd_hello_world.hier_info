@@ -1,0 +1,31 @@
+|lcd_hello_world
+entrada_reloj => contador[0].CLK
+entrada_reloj => contador[1].CLK
+entrada_reloj => contador[2].CLK
+entrada_reloj => contador[3].CLK
+entrada_reloj => contador[4].CLK
+entrada_reloj => contador[5].CLK
+entrada_reloj => contador[6].CLK
+entrada_reloj => contador[7].CLK
+entrada_reloj => contador[8].CLK
+entrada_reloj => contador[9].CLK
+entrada_reloj => contador[10].CLK
+entrada_reloj => contador[11].CLK
+entrada_reloj => contador[12].CLK
+entrada_reloj => contador[13].CLK
+entrada_reloj => contador[14].CLK
+entrada_reloj => contador[15].CLK
+entrada_reloj => contador[16].CLK
+entrada_reloj => contador[17].CLK
+datos_control[0] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+datos_control[1] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+datos_control[2] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+datos_control[3] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+datos_control[4] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+datos_control[5] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+datos_control[6] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+datos_control[7] <= <GND>
+datos_control[8] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+datos_control[9] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
