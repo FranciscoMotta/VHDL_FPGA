@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, D:/Escritorio/FPGA - CLASE/clase 3/inicializer/starter_circuit.vhd
+source_file = 1, d:/quartus_20/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/quartus_20/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/quartus_20/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/quartus_20/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/Escritorio/FPGA - CLASE/clase 3/inicializer/db/starter_circuit.cbx.xml
+design_name = starter_circuit
+instance = comp, \starter_bit~output\, starter_bit~output, starter_circuit, 1
+instance = comp, \entrada_reloj~input\, entrada_reloj~input, starter_circuit, 1

@@ -1,0 +1,5 @@
+|starter_circuit
+entrada_reloj => register_out.CLK
+starter_bit <= register_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

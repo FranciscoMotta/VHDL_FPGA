@@ -1,0 +1,35 @@
+|case_sentence
+A => Mux0.IN8
+A => Mux1.IN8
+A => Mux2.IN8
+A => Mux3.IN8
+A => Mux4.IN8
+A => Mux5.IN8
+A => Mux6.IN8
+A => Mux7.IN8
+B => Mux0.IN9
+B => Mux1.IN9
+B => Mux2.IN9
+B => Mux3.IN9
+B => Mux4.IN9
+B => Mux5.IN9
+B => Mux6.IN9
+B => Mux7.IN9
+C => Mux0.IN10
+C => Mux1.IN10
+C => Mux2.IN10
+C => Mux3.IN10
+C => Mux4.IN10
+C => Mux5.IN10
+C => Mux6.IN10
+C => Mux7.IN10
+Salida[0] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+Salida[1] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+Salida[2] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+Salida[3] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+Salida[4] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+Salida[5] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+Salida[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Salida[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

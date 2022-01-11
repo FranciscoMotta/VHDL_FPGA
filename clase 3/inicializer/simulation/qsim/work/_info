@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Escritorio/FPGA - CLASE/clase 3/inicializer/simulation/qsim
+Estarter_circuit
+Z1 w1641920597
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 76OUjOFMM1Jzd<9936DA;3
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 dANj__M<MaN@;H9Tkm=iP1
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 H5F:RRfLz82T3`4>@b7mS3
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 DPx6 altera 28 altera_primitives_components 0 22 VSD=32;3391kSOd?PDZYj3
+!i122 0
+R0
+Z10 8starter_circuit.vho
+Z11 Fstarter_circuit.vho
+l0
+L37 1
+V0W3_0GkiNmi`aM>hnPc[n1
+!s100 Xc]5obzjAOH@`VkJQIzNz0
+Z12 OV;C;2020.1;71
+32
+Z13 !s110 1641920599
+!i10b 1
+Z14 !s108 1641920598.000000
+Z15 !s90 -work|work|starter_circuit.vho|
+Z16 !s107 starter_circuit.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 15 starter_circuit 0 22 0W3_0GkiNmi`aM>hnPc[n1
+!i122 0
+l60
+L44 60
+VP5`6a@g@jX<[19g1bUz<:1
+!s100 :[UIf<aV_a:RezKW66@TN2
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Estarter_circuit_vhd_vec_tst
+Z19 w1641920595
+R7
+R8
+!i122 1
+R0
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L32 1
+V]b[;<gj7TKY>5InZ:aNAJ3
+!s100 mIIYd`FXXF<JbHma_jJZ<0
+R12
+32
+R13
+!i10b 1
+Z22 !s108 1641920599.000000
+Z23 !s90 -work|work|Waveform.vwf.vht|
+!s107 Waveform.vwf.vht|
+!i113 1
+R17
+R18
+Astarter_circuit_arch
+R7
+R8
+DEx4 work 27 starter_circuit_vhd_vec_tst 0 22 ]b[;<gj7TKY>5InZ:aNAJ3
+!i122 1
+l45
+L34 31
+VAM0iYCCj7OfWF:W^A9eA?2
+!s100 ?n4z:EZoaeU06h6a`oBI63
+R12
+32
+R13
+!i10b 1
+R22
+R23
+Z24 !s107 Waveform.vwf.vht|
+!i113 1
+R17
+R18

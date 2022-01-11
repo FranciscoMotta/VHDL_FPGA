@@ -1,0 +1,17 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "starter_bit",
+					"strict" : false
+				},
+				{
+					"name" : "entrada_reloj",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
