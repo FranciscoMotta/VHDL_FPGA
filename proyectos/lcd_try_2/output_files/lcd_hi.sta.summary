@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'entrada_reloj'
+Slack : -4.952
+TNS   : -60.665
+
+Type  : Slow 1200mV 85C Model Setup 'out_div'
+Slack : -0.614
+TNS   : -0.969
+
+Type  : Slow 1200mV 85C Model Hold 'out_div'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'entrada_reloj'
+Slack : 0.744
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'entrada_reloj'
+Slack : -3.000
+TNS   : -43.149
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'out_div'
+Slack : -1.487
+TNS   : -5.948
+
+Type  : Slow 1200mV 0C Model Setup 'entrada_reloj'
+Slack : -4.687
+TNS   : -52.804
+
+Type  : Slow 1200mV 0C Model Setup 'out_div'
+Slack : -0.379
+TNS   : -0.571
+
+Type  : Slow 1200mV 0C Model Hold 'out_div'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'entrada_reloj'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'entrada_reloj'
+Slack : -3.000
+TNS   : -43.149
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'out_div'
+Slack : -1.487
+TNS   : -5.960
+
+Type  : Fast 1200mV 0C Model Setup 'entrada_reloj'
+Slack : -1.701
+TNS   : -12.516
+
+Type  : Fast 1200mV 0C Model Setup 'out_div'
+Slack : 0.263
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'out_div'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'entrada_reloj'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'entrada_reloj'
+Slack : -3.000
+TNS   : -32.214
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'out_div'
+Slack : -1.000
+TNS   : -4.000
+
+------------------------------------------------------------

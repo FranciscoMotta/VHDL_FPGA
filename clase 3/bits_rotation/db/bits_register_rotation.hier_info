@@ -1,0 +1,30 @@
+|bits_register_rotation
+int_signal => cuenta[0].CLK
+int_signal => cuenta[1].CLK
+int_signal => cuenta[2].CLK
+int_signal => cuenta[3].CLK
+int_signal => cuenta[4].CLK
+int_signal => cuenta[5].CLK
+int_signal => cuenta[6].CLK
+int_signal => cuenta[7].CLK
+int_signal => cuenta[8].CLK
+int_signal => cuenta[9].CLK
+int_signal => cuenta[10].CLK
+int_signal => cuenta[11].CLK
+int_signal => cuenta[12].CLK
+int_signal => cuenta[13].CLK
+int_signal => cuenta[14].CLK
+int_signal => cuenta[15].CLK
+int_signal => cuenta[16].CLK
+int_signal => cuenta[17].CLK
+int_signal => cuenta[18].CLK
+int_signal => cuenta[19].CLK
+int_signal => cuenta[20].CLK
+int_signal => cuenta[21].CLK
+int_signal => cuenta[22].CLK
+leds_out[0] << leds_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+leds_out[1] << leds_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+leds_out[2] << leds_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+leds_out[3] << leds_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,17 @@
+|lcd_hi
+entrada_reloj => salida.IN1
+rs << cuenta_cont[2].DB_MAX_OUTPUT_PORT_TYPE
+en << out_div.DB_MAX_OUTPUT_PORT_TYPE
+salida_reloj << out_div.DB_MAX_OUTPUT_PORT_TYPE
+rw << <GND>
+disp_e << <GND>
+data[0] << Mux5.DB_MAX_OUTPUT_PORT_TYPE
+data[1] << Mux4.DB_MAX_OUTPUT_PORT_TYPE
+data[2] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+data[3] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+data[4] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+data[5] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+data[6] << cuenta_cont[2].DB_MAX_OUTPUT_PORT_TYPE
+data[7] << <GND>
+
+

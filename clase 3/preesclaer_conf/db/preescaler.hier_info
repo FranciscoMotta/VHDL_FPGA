@@ -1,0 +1,32 @@
+|preescaler
+entrada_freq => contador[0].CLK
+entrada_freq => contador[1].CLK
+entrada_freq => contador[2].CLK
+entrada_freq => contador[3].CLK
+entrada_freq => contador[4].CLK
+entrada_freq => contador[5].CLK
+entrada_freq => contador[6].CLK
+entrada_freq => contador[7].CLK
+entrada_freq => contador[8].CLK
+entrada_freq => contador[9].CLK
+entrada_freq => contador[10].CLK
+entrada_freq => contador[11].CLK
+entrada_freq => contador[12].CLK
+entrada_freq => contador[13].CLK
+entrada_freq => contador[14].CLK
+entrada_freq => contador[15].CLK
+entrada_freq => contador[16].CLK
+entrada_freq => contador[17].CLK
+entrada_freq => contador[18].CLK
+entrada_freq => contador[19].CLK
+entrada_freq => contador[20].CLK
+entrada_freq => contador[21].CLK
+entrada_freq => contador[22].CLK
+entrada_freq => contador[23].CLK
+entrada_freq => contador[24].CLK
+entrada_freq => contador[25].CLK
+selector[0] => Mux0.IN1
+selector[1] => Mux0.IN0
+salida_freq << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
