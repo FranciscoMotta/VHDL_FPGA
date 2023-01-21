@@ -1,0 +1,197 @@
+-- Generador de tonos de notas musicales 
+-- Notas: Do Re Mi Fa Sol La Si
+-- Frecuencias por nota (en Hz):
+-- Do: 524Hz   Re: 584Hz    Mi: 660Hz
+-- Fa: 699Hz   Sol: 784Hz   La: 440Hz
+-- Si: 494Hz
+
+-- Librerias 
+
+library ieee; 
+
+-- Paquetes 
+
+use ieee.std_logic_1164.all; -- Multinivel
+use ieee.std_logic_arith.all; -- Operaciones matemáticas
+use ieee.std_logic_unsigned.all; -- Operaciones sin signo
+
+-- Entidad
+
+entity generador_tonos is 
+port(
+	in_clock_tone_gen: in std_logic; -- Entrada del reloj del FPGA
+	out_buzz_tone_gen: out std_logic -- Salida al Buzzer del FPGA
+);
+end entity generador_tonos;
+
+-- Arquitectura
+
+architecture func_generador_tonos of generador_tonos is
+
+signal selector_tone: std_logic_vector (3 downto 0); -- 7 notas < 2^3
+signal time_selector: std_logic;
+
+signal tone_do: std_logic; -- Salida a tono DO 
+signal tone_re: std_logic; -- Salida a tono RE
+signal tone_mi: std_logic; -- Salida a tono MI
+signal tone_fa: std_logic; -- Salida a tono FA
+signal tone_sol: std_logic;-- Salida a tono SOL
+signal tone_la: std_logic; -- Salida a tono LA
+signal tone_si: std_logic; -- Salida a tono SI
+
+begin
+
+	udd1: work.div_gen(func_div_gen)
+	
+-- Nota: DO = 524Hz
+-- Factor de escala = Fosc / Fdes = 50_000_000 / 524 => Fesc = 95420
+-- Numero de bits = log2(Fesc) = log2(95420) => Nbits = 17
+	
+			generic map (
+				factor_escala_div => 95420,
+				numero_de_bits_div => 17
+			)
+			
+			port map (
+				int_clock_div => in_clock_tone_gen,
+				out_clock_div => tone_do
+			);
+			
+	udd2: work.div_gen(func_div_gen)
+	
+-- Nota: RE = 584Hz
+-- Factor de escala = Fosc / Fdes = 50_000_000 / 584 => Fesc = 85616
+-- Numero de bits = log2(Fesc) = log2(95420) => Nbits = 16
+	
+			generic map (
+				factor_escala_div => 85616,
+				numero_de_bits_div => 16
+			)
+			
+			port map (
+				int_clock_div => in_clock_tone_gen,
+				out_clock_div => tone_re
+			);
+			
+			
+	udd3: work.div_gen(func_div_gen)
+	
+-- Nota: MI = 660Hz
+-- Factor de escala = Fosc / Fdes = 50_000_000 / 660 => Fesc = 75757
+-- Numero de bits = log2(Fesc) = log2(95420) => Nbits = 16
+	
+			generic map (
+				factor_escala_div => 75757,
+				numero_de_bits_div => 16
+			)
+			
+			port map (
+				int_clock_div => in_clock_tone_gen,
+				out_clock_div => tone_mi
+			);
+			
+	udd4: work.div_gen(func_div_gen)
+	
+-- Nota: FA = 699Hz
+-- Factor de escala = Fosc / Fdes = 50_000_000 / 699 => Fesc = 71530
+-- Numero de bits = log2(Fesc) = log2(95420) => Nbits = 16
+	
+			generic map (
+				factor_escala_div => 71531,
+				numero_de_bits_div => 16
+			)
+			
+			port map (
+				int_clock_div => in_clock_tone_gen,
+				out_clock_div => tone_fa
+			);
+	
+	udd5: work.div_gen(func_div_gen)
+	
+-- Nota: SOL = 784Hz
+-- Factor de escala = Fosc / Fdes = 50_000_000 / 784 => Fesc = 63775
+-- Numero de bits = log2(Fesc) = log2(95420) => Nbits = 16
+	
+			generic map (
+				factor_escala_div => 63775,
+				numero_de_bits_div => 16
+			)
+			
+			port map (
+				int_clock_div => in_clock_tone_gen,
+				out_clock_div => tone_sol
+			);
+			
+-- Nota: LA = 440Hz
+-- Factor de escala = Fosc / Fdes = 50_000_000 / 440 => Fesc = 113636
+-- Numero de bits = log2(Fesc) = log2(95420) => Nbits = 17
+	
+			generic map (
+				factor_escala_div => 113636,
+				numero_de_bits_div => 17
+			)
+			
+			port map (
+				int_clock_div => in_clock_tone_gen,
+				out_clock_div => tone_la
+			);
+			
+-- Nota: SI = 494Hz
+-- Factor de escala = Fosc / Fdes = 50_000_000 / 494 => Fesc = 101214
+-- Numero de bits = log2(Fesc) = log2(95420) => Nbits = 17
+	
+			generic map (
+				factor_escala_div => 101214,
+				numero_de_bits_div => 17
+			)
+			
+			port map (
+				int_clock_div => in_clock_tone_gen,
+				out_clock_div => tone_si
+			);
+			
+-- CONCURRENCIA DE ASIGNACIÓN A SEÑAL
+
+-- Temporizador
+
+-- Tiempo = 1s
+-- Factor de escala = Fosc / Fdes = 50_000_000 / 50_000_000 => Fesc = 1
+-- Numero de bits = log2(Fesc) = log2(95420) => Nbits = 17
+	
+			generic map (
+				factor_escala_div => 50_000_000,
+				numero_de_bits_div => 26
+			)
+			
+			port map (
+				int_clock_div => in_clock_tone_gen,
+				out_clock_div => time_selector
+			);
+			
+selector: process (time_selector)
+begin
+	if rising_edge(time_selector) then
+		if selector_tone = 8 then
+			selector_tone <= (others => '0');
+		else 
+			selector_tone <= selector_tone + 1;
+		end if;
+	end if;
+end process selector;
+			
+-- Selector de tono de salida 
+
+mux_tone: process (selector_tone)
+begin
+	case (selector_tone) is 
+		when 0 => out_buzz_tone_gen <= not(tone_do);
+		when 1 => out_buzz_tone_gen <= not(tone_re);
+		when 2 => out_buzz_tone_gen <= not(tone_mi);
+		when 3 => out_buzz_tone_gen <= not(tone_fa);
+		when 4 => out_buzz_tone_gen <= not(tone_sol);
+		when 5 => out_buzz_tone_gen <= not(tone_la);
+		when others => out_buzz_tone_gen <= not(tone_si);	
+	end case;
+end process mux_tone;
+
+end architecture func_generador_tonos;

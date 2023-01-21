@@ -1,0 +1,21 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "preescaler_mult_clock_out",
+					"strict" : false
+				},
+				{
+					"name" : "preescaler_mult_clock_in",
+					"strict" : false
+				},
+				{
+					"name" : "preescaler_select_in[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

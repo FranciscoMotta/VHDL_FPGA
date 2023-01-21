@@ -1,0 +1,7 @@
+|clase_1_led
+led_1_out << <VCC>
+led_2_out << <GND>
+led_3_out << <VCC>
+led_4_out << <GND>
+
+

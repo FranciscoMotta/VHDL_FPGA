@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "stop_led_sem",
+					"strict" : false
+				},
+				{
+					"name" : "pass_led_sem",
+					"strict" : false
+				},
+				{
+					"name" : "stop_push_sem",
+					"strict" : false
+				},
+				{
+					"name" : "clk_freq_sem_1_hz",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, D:/Escritorio/FPGA - REPASO/EJEMPLO_4_FFD/flip_flop_D.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/Escritorio/FPGA - REPASO/EJEMPLO_4_FFD/db/flip_flop_D.cbx.xml
+design_name = flip_flop_D
+instance = comp, \out_D~output\, out_D~output, flip_flop_D, 1
+instance = comp, \out_D_n~output\, out_D_n~output, flip_flop_D, 1
+instance = comp, \int_clk~input\, int_clk~input, flip_flop_D, 1
+instance = comp, \int_D~input\, int_D~input, flip_flop_D, 1
+instance = comp, \out_D~reg0\, out_D~reg0, flip_flop_D, 1
+instance = comp, \out_D_n~0\, out_D_n~0, flip_flop_D, 1
+instance = comp, \out_D_n~reg0\, out_D_n~reg0, flip_flop_D, 1

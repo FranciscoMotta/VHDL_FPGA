@@ -1,0 +1,11 @@
+|counter_4_bits
+int_clock_counter => counter_signal[0].CLK
+int_clock_counter => counter_signal[1].CLK
+int_clock_counter => counter_signal[2].CLK
+int_clock_counter => counter_signal[3].CLK
+out_counter[0] <= counter_signal[0].DB_MAX_OUTPUT_PORT_TYPE
+out_counter[1] <= counter_signal[1].DB_MAX_OUTPUT_PORT_TYPE
+out_counter[2] <= counter_signal[2].DB_MAX_OUTPUT_PORT_TYPE
+out_counter[3] <= counter_signal[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,25 @@
+-- Importación de librerias 
+
+library ieee;
+
+use ieee.std_logic_1164.all; -- Multinivel
+use ieee.std_logic_arith.all; -- Matemática
+use ieee.std_logic_unsigned.all; -- Operaciones sin signo
+
+-- Entidad
+
+entity repaso_vhdl is
+	port
+	(
+		A: in std_logic;
+		B: in std_logic;
+		C: out std_logic
+	);
+end repaso_vhdl;
+
+-- Arquitectura
+
+architecture func_repaso of repaso_vhdl is
+begin
+	C <= A and B;
+end func_repaso;

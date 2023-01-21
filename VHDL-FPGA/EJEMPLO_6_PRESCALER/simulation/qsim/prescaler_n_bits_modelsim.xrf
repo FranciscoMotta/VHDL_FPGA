@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, D:/Escritorio/FPGA - REPASO/EJEMPLO_6_PRESCALER/prescaler_n_bits.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/Escritorio/FPGA - REPASO/EJEMPLO_6_PRESCALER/db/prescaler_n_bits.cbx.xml
+design_name = prescaler_n_bits
+instance = comp, \out_clock_presc~output\, out_clock_presc~output, prescaler_n_bits, 1
+instance = comp, \in_clock_presc~input\, in_clock_presc~input, prescaler_n_bits, 1
+instance = comp, \counter_prescaler[0]~1\, counter_prescaler[0]~1, prescaler_n_bits, 1
+instance = comp, \counter_prescaler[0]\, counter_prescaler[0], prescaler_n_bits, 1
+instance = comp, \counter_prescaler[1]~0\, counter_prescaler[1]~0, prescaler_n_bits, 1
+instance = comp, \counter_prescaler[1]\, counter_prescaler[1], prescaler_n_bits, 1

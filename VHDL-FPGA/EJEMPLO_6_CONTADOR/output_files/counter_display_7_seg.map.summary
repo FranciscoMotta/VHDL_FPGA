@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Aug 06 21:46:17 2022
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : counter_display_7_seg
+Top-level Entity Name : counter_display_7_seg
+Family : Cyclone IV E
+Total logic elements : 36
+    Total combinational functions : 36
+    Dedicated logic registers : 28
+Total registers : 28
+Total pins : 10
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

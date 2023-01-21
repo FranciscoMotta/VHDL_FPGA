@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Escritorio/FPGA - REPASO/EJEMPLO_7_WHEN_CASE/simulation/qsim
+Ewhen_case
+Z1 w1659994060
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 ^K2eeK[IVbX]]MLcdOEI91
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 GFL[QAd@dAZF:`jjOGn9>2
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 3dzZ?YU_4FC5UU0cTXRET1
+!i122 0
+R0
+Z9 8when_case.vho
+Z10 Fwhen_case.vho
+l0
+L37 1
+VPjhV[K`cJd>jEKYl8Ameg2
+!s100 za5cFMoidASYGP:UO<B093
+Z11 OV;C;2020.1;71
+32
+Z12 !s110 1659994065
+!i10b 1
+Z13 !s108 1659994064.000000
+Z14 !s90 -work|work|when_case.vho|
+Z15 !s107 when_case.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 9 when_case 0 22 PjhV[K`cJd>jEKYl8Ameg2
+!i122 0
+l70
+L46 98
+V8l7E6_IeLWzPaVgY7_noW2
+!s100 cW7O?_AOoii?5IV9<7nLj1
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Ewhen_case_vhd_vec_tst
+Z18 w1659994058
+R6
+R7
+!i122 1
+R0
+Z19 8Waveform.vwf.vht
+Z20 FWaveform.vwf.vht
+l0
+L32 1
+VD?<DWdBT;;mzYRNjT@Kb03
+!s100 9V8R9AcbZi7;YEnOoKI?o3
+R11
+32
+R12
+!i10b 1
+Z21 !s108 1659994065.000000
+Z22 !s90 -work|work|Waveform.vwf.vht|
+!s107 Waveform.vwf.vht|
+!i113 1
+R16
+R17
+Awhen_case_arch
+R6
+R7
+DEx4 work 21 when_case_vhd_vec_tst 0 22 D?<DWdBT;;mzYRNjT@Kb03
+!i122 1
+l49
+L34 63
+Vl<j]ED1Re;fYC`O1`<BP71
+!s100 e?S=LG>3]^gJcnN80Sh691
+R11
+32
+R12
+!i10b 1
+R21
+R22
+Z23 !s107 Waveform.vwf.vht|
+!i113 1
+R16
+R17

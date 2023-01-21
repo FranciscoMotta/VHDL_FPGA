@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, D:/Escritorio/FPGA - REPASO/EJEMPLO_2/compuerta_and.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/Escritorio/FPGA - REPASO/EJEMPLO_2/db/compuerta_and.cbx.xml
+design_name = hard_block
+design_name = compuerta_and
+instance = comp, \out1_and~output\, out1_and~output, compuerta_and, 1
+instance = comp, \in2_and~input\, in2_and~input, compuerta_and, 1
+instance = comp, \in1_and~input\, in1_and~input, compuerta_and, 1
+instance = comp, \out1_and~0\, out1_and~0, compuerta_and, 1

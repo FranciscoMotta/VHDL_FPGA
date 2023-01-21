@@ -1,0 +1,32 @@
+|componentes
+A => medio_sumador:unidad_1.in1_medio1
+B => medio_sumador:unidad_1.in2_medio1
+Cin => medio_sumador:unidad_2.in2_medio1
+S <= medio_sumador:unidad_2.out1_medio1
+Co <= compuerta_or:unidad_3.out1_or1
+
+
+|componentes|medio_sumador:unidad_1
+in1_medio1 => out1_medio1.IN0
+in1_medio1 => carry1_medio1.IN0
+in2_medio1 => out1_medio1.IN1
+in2_medio1 => carry1_medio1.IN1
+out1_medio1 <= out1_medio1.DB_MAX_OUTPUT_PORT_TYPE
+carry1_medio1 <= carry1_medio1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|componentes|medio_sumador:unidad_2
+in1_medio1 => out1_medio1.IN0
+in1_medio1 => carry1_medio1.IN0
+in2_medio1 => out1_medio1.IN1
+in2_medio1 => carry1_medio1.IN1
+out1_medio1 <= out1_medio1.DB_MAX_OUTPUT_PORT_TYPE
+carry1_medio1 <= carry1_medio1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|componentes|compuerta_or:unidad_3
+in1_or1 => out1_or1.IN0
+in2_or1 => out1_or1.IN1
+out1_or1 <= out1_or1.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,77 @@
+-- Librerías 
+
+library ieee;
+
+-- Paquetes
+
+use ieee.std_logic_1164.all; -- Multinivel
+use ieee.std_logic_arith.all; -- Op. Arith
+use ieee.std_logic_unsigned.all; -- Sin signo
+
+-- Entidad 
+
+entity counter_0_9999 is 
+	port(
+			counter_clock_in: in std_logic; -- Entrada reloj
+			counter_ena_disp: out std_logic_vector(3 downto 0); -- Enables
+			counter_out_disp: out std_logic_vector(6 downto 0) -- sin el punto
+		);
+end entity counter_0_9999;
+
+-- Arquitectura
+
+architecture func_counter_0_9999 of counter_0_9999 is 
+
+-- Constantes
+constant factor_escala_50mhz_1hz: integer := 50_000_000;
+constant factor_escala_50mhz_1khz: integer := 50_000;
+constant n_bits_cont_1hz: integer:= 25; -- bits = log2(factor_escala_50mhz_1hz)
+constant n_bits_cont_1khz: integer := 16; -- bits = log2(factor_escala_50mhz_1khz)
+
+-- Señales 
+signal clock_div_out_1hz: std_logic;-- Señal de 1hz
+signal clock_div_out_1khz: std_logic;-- Señal de 1khz
+signal contador_1hz: std_logic_vector(n_bits_cont_1hz - 1 downto 0);
+signal contador_1khz: std_logic_vector(n_bits_cont_1khz - 1 downto 0);
+
+begin
+
+---------------- PREESCALER DE 50MHZ A 1HZ -----------------
+
+preescaler_50mhz_to_1_hz: process(counter_clock_in)
+begin
+	if rising_edge(counter_clock_in) then
+		if (factor_escala_50mhz_1hz - 1 = contador_1hz) then
+			contador_1hz <= (others => '0'); -- Se reinicia el contador_1hz
+		else 
+			contador_1hz <= contador_1hz + 1; -- aumentamos la cuenta
+		end if;
+	end if;
+end procedure preescaler_50mhz_to_1_hz; 
+
+----------------------------------------------------------------
+
+clock_div_out_1hz <= contador_1hz(n_bits_cont_1hz - 1); -- Asignamos salida 1hz
+
+----------------------------------------------------------------
+
+--------------PREESCALER DE 50MHZ A 1kHZ-------------------------
+preescaler_50mhz_to_1_khz: process(counter_clock_in)
+begin
+	if rising_edge(counter_clock_in) then
+		if (factor_escala_50mhz_1khz - 1 = contador_1khz) then
+			contador_1khz <= (others => '0'); -- Se reinicia el contador_1hz
+		else 
+			contador_1khz <= contador_1khz + 1; -- aumentamos la cuenta
+		end if;
+	end if;
+end procedure preescaler_50mhz_to_1_khz; 
+
+------------------------------------------------------------------
+
+clock_div_out_1khz <= contador_1khz(n_bits_cont_1khz - 1); -- Asignamos salida 1khz
+
+-----------------------------------------------------------------
+
+
+end architecture func_counter_0_9999;

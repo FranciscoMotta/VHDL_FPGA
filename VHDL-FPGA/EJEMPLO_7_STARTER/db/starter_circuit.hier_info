@@ -1,0 +1,5 @@
+|starter_circuit
+starter_clock => starter_dout.CLK
+starter_init <= starter_dout.DB_MAX_OUTPUT_PORT_TYPE
+
+

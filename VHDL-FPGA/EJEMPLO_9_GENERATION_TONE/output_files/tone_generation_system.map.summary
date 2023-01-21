@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Aug 10 23:13:07 2022
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : tone_generation_system
+Top-level Entity Name : tone_generation_system
+Family : Cyclone IV E
+Total logic elements : 126
+    Total combinational functions : 126
+    Dedicated logic registers : 75
+Total registers : 75
+Total pins : 2
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

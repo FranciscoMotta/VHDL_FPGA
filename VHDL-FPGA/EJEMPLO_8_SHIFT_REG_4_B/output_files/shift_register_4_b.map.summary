@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Aug 08 17:55:05 2022
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : shift_register_4_b
+Top-level Entity Name : shift_register_4_b
+Family : Cyclone IV E
+Total logic elements : 30
+    Total combinational functions : 29
+    Dedicated logic registers : 30
+Total registers : 30
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

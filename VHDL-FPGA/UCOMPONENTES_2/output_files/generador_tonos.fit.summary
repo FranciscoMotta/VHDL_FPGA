@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Jan 03 22:23:27 2023
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : generador_tonos
+Top-level Entity Name : generador_tonos
+Family : Cyclone IV E
+Device : EP4CE6E22C8
+Timing Models : Final
+Total logic elements : 200 / 6,272 ( 3 % )
+    Total combinational functions : 200 / 6,272 ( 3 % )
+    Dedicated logic registers : 109 / 6,272 ( 2 % )
+Total registers : 109
+Total pins : 2 / 92 ( 2 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

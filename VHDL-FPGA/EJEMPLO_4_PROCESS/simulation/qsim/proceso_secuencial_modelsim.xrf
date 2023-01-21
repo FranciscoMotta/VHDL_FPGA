@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, D:/Escritorio/FPGA - REPASO/EJEMPLO_4_PROCESS/proceso_secuencial.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/Escritorio/FPGA - REPASO/EJEMPLO_4_PROCESS/db/proceso_secuencial.cbx.xml
+design_name = proceso_secuencial
+instance = comp, \Z~output\, Z~output, proceso_secuencial, 1
+instance = comp, \A~input\, A~input, proceso_secuencial, 1

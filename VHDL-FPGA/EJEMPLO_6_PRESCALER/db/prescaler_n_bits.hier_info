@@ -1,0 +1,6 @@
+|prescaler_n_bits
+in_clock_presc => counter_prescaler[0].CLK
+in_clock_presc => counter_prescaler[1].CLK
+out_clock_presc <= counter_prescaler[1].DB_MAX_OUTPUT_PORT_TYPE
+
+

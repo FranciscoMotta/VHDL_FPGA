@@ -1,0 +1,6 @@
+|compuerta_and
+in1_and => out1_and.DATAB
+in2_and => out1_and.OUTPUTSELECT
+out1_and <= out1_and.DB_MAX_OUTPUT_PORT_TYPE
+
+

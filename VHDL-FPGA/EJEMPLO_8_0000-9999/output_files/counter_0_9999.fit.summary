@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Aug 08 22:35:06 2022
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : counter_0_9999
+Top-level Entity Name : counter_0_9999
+Family : Cyclone IV E
+Device : EP4CE6E22C8
+Timing Models : Final
+Total logic elements : 92 / 6,272 ( 1 % )
+    Total combinational functions : 92 / 6,272 ( 1 % )
+    Dedicated logic registers : 62 / 6,272 ( < 1 % )
+Total registers : 62
+Total pins : 12 / 92 ( 13 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

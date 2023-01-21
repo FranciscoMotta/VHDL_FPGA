@@ -1,0 +1,599 @@
+$comment
+	File created using the following command:
+		vcd file shift_register_4_b.msim.vcd -direction
+$end
+$date
+	Mon Aug 08 17:56:42 2022
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module shift_register_4_b_vhd_vec_tst $end
+$var wire 1 ! shift_register_clock $end
+$var wire 1 " shift_register_leds [3] $end
+$var wire 1 # shift_register_leds [2] $end
+$var wire 1 $ shift_register_leds [1] $end
+$var wire 1 % shift_register_leds [0] $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var wire 1 ) devoe $end
+$var wire 1 * devclrn $end
+$var wire 1 + devpor $end
+$var wire 1 , ww_devoe $end
+$var wire 1 - ww_devclrn $end
+$var wire 1 . ww_devpor $end
+$var wire 1 / ww_shift_register_clock $end
+$var wire 1 0 ww_shift_register_leds [3] $end
+$var wire 1 1 ww_shift_register_leds [2] $end
+$var wire 1 2 ww_shift_register_leds [1] $end
+$var wire 1 3 ww_shift_register_leds [0] $end
+$var wire 1 4 \shift_register_leds[0]~output_o\ $end
+$var wire 1 5 \shift_register_leds[1]~output_o\ $end
+$var wire 1 6 \shift_register_leds[2]~output_o\ $end
+$var wire 1 7 \shift_register_leds[3]~output_o\ $end
+$var wire 1 8 \shift_register_clock~input_o\ $end
+$var wire 1 9 \registro_de_contador[0]~72_combout\ $end
+$var wire 1 : \registro_de_contador[1]~24_combout\ $end
+$var wire 1 ; \registro_de_contador[1]~25\ $end
+$var wire 1 < \registro_de_contador[2]~26_combout\ $end
+$var wire 1 = \registro_de_contador[2]~27\ $end
+$var wire 1 > \registro_de_contador[3]~28_combout\ $end
+$var wire 1 ? \registro_de_contador[3]~29\ $end
+$var wire 1 @ \registro_de_contador[4]~30_combout\ $end
+$var wire 1 A \registro_de_contador[4]~31\ $end
+$var wire 1 B \registro_de_contador[5]~32_combout\ $end
+$var wire 1 C \registro_de_contador[5]~33\ $end
+$var wire 1 D \registro_de_contador[6]~34_combout\ $end
+$var wire 1 E \registro_de_contador[6]~35\ $end
+$var wire 1 F \registro_de_contador[7]~36_combout\ $end
+$var wire 1 G \registro_de_contador[7]~37\ $end
+$var wire 1 H \registro_de_contador[8]~38_combout\ $end
+$var wire 1 I \registro_de_contador[8]~39\ $end
+$var wire 1 J \registro_de_contador[9]~40_combout\ $end
+$var wire 1 K \registro_de_contador[9]~41\ $end
+$var wire 1 L \registro_de_contador[10]~42_combout\ $end
+$var wire 1 M \registro_de_contador[10]~43\ $end
+$var wire 1 N \registro_de_contador[11]~44_combout\ $end
+$var wire 1 O \registro_de_contador[11]~45\ $end
+$var wire 1 P \registro_de_contador[12]~46_combout\ $end
+$var wire 1 Q \registro_de_contador[12]~47\ $end
+$var wire 1 R \registro_de_contador[13]~48_combout\ $end
+$var wire 1 S \registro_de_contador[13]~49\ $end
+$var wire 1 T \registro_de_contador[14]~50_combout\ $end
+$var wire 1 U \registro_de_contador[14]~51\ $end
+$var wire 1 V \registro_de_contador[15]~52_combout\ $end
+$var wire 1 W \registro_de_contador[15]~53\ $end
+$var wire 1 X \registro_de_contador[16]~54_combout\ $end
+$var wire 1 Y \registro_de_contador[16]~55\ $end
+$var wire 1 Z \registro_de_contador[17]~56_combout\ $end
+$var wire 1 [ \registro_de_contador[17]~57\ $end
+$var wire 1 \ \registro_de_contador[18]~58_combout\ $end
+$var wire 1 ] \registro_de_contador[18]~59\ $end
+$var wire 1 ^ \registro_de_contador[19]~60_combout\ $end
+$var wire 1 _ \registro_de_contador[19]~61\ $end
+$var wire 1 ` \registro_de_contador[20]~62_combout\ $end
+$var wire 1 a \registro_de_contador[20]~63\ $end
+$var wire 1 b \registro_de_contador[21]~64_combout\ $end
+$var wire 1 c \registro_de_contador[21]~65\ $end
+$var wire 1 d \registro_de_contador[22]~66_combout\ $end
+$var wire 1 e \registro_de_contador[22]~67\ $end
+$var wire 1 f \registro_de_contador[23]~68_combout\ $end
+$var wire 1 g \registro_de_contador[23]~69\ $end
+$var wire 1 h \registro_de_contador[24]~70_combout\ $end
+$var wire 1 i \starter_out~q\ $end
+$var wire 1 j \shift_register_leds~1_combout\ $end
+$var wire 1 k \shift_register_leds[1]~reg0_q\ $end
+$var wire 1 l \shift_register_leds~2_combout\ $end
+$var wire 1 m \shift_register_leds[2]~reg0_q\ $end
+$var wire 1 n \shift_register_leds~3_combout\ $end
+$var wire 1 o \shift_register_leds[3]~reg0_q\ $end
+$var wire 1 p \shift_register_leds~0_combout\ $end
+$var wire 1 q \shift_register_leds[0]~reg0_q\ $end
+$var wire 1 r registro_de_contador [24] $end
+$var wire 1 s registro_de_contador [23] $end
+$var wire 1 t registro_de_contador [22] $end
+$var wire 1 u registro_de_contador [21] $end
+$var wire 1 v registro_de_contador [20] $end
+$var wire 1 w registro_de_contador [19] $end
+$var wire 1 x registro_de_contador [18] $end
+$var wire 1 y registro_de_contador [17] $end
+$var wire 1 z registro_de_contador [16] $end
+$var wire 1 { registro_de_contador [15] $end
+$var wire 1 | registro_de_contador [14] $end
+$var wire 1 } registro_de_contador [13] $end
+$var wire 1 ~ registro_de_contador [12] $end
+$var wire 1 !! registro_de_contador [11] $end
+$var wire 1 "! registro_de_contador [10] $end
+$var wire 1 #! registro_de_contador [9] $end
+$var wire 1 $! registro_de_contador [8] $end
+$var wire 1 %! registro_de_contador [7] $end
+$var wire 1 &! registro_de_contador [6] $end
+$var wire 1 '! registro_de_contador [5] $end
+$var wire 1 (! registro_de_contador [4] $end
+$var wire 1 )! registro_de_contador [3] $end
+$var wire 1 *! registro_de_contador [2] $end
+$var wire 1 +! registro_de_contador [1] $end
+$var wire 1 ,! registro_de_contador [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0&
+1'
+x(
+1)
+1*
+1+
+1,
+1-
+1.
+0/
+04
+05
+06
+07
+08
+19
+0:
+0;
+0<
+1=
+0>
+0?
+0@
+1A
+0B
+0C
+0D
+1E
+0F
+0G
+0H
+1I
+0J
+0K
+0L
+1M
+0N
+0O
+0P
+1Q
+0R
+0S
+0T
+1U
+0V
+0W
+0X
+1Y
+0Z
+0[
+0\
+1]
+0^
+0_
+0`
+1a
+0b
+0c
+0d
+1e
+0f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+1p
+0q
+0"
+0#
+0$
+0%
+00
+01
+02
+03
+0r
+0s
+0t
+0u
+0v
+0w
+0x
+0y
+0z
+0{
+0|
+0}
+0~
+0!!
+0"!
+0#!
+0$!
+0%!
+0&!
+0'!
+0(!
+0)!
+0*!
+0+!
+0,!
+$end
+#20000
+1!
+1/
+18
+1,!
+09
+1:
+#40000
+0!
+0/
+08
+#60000
+1!
+1/
+18
+0,!
+1+!
+19
+#80000
+0!
+0/
+08
+#100000
+1!
+1/
+18
+1,!
+09
+0:
+1;
+1<
+#120000
+0!
+0/
+08
+#140000
+1!
+1/
+18
+0,!
+0+!
+1*!
+0<
+0=
+19
+0;
+1<
+1=
+1>
+0>
+#160000
+0!
+0/
+08
+#180000
+1!
+1/
+18
+1,!
+09
+1:
+#200000
+0!
+0/
+08
+#220000
+1!
+1/
+18
+0,!
+1+!
+19
+#240000
+0!
+0/
+08
+#260000
+1!
+1/
+18
+1,!
+09
+0:
+1;
+0<
+0=
+1>
+#280000
+0!
+0/
+08
+#300000
+1!
+1/
+18
+0,!
+0+!
+0*!
+1)!
+0>
+1?
+1<
+1=
+19
+0;
+0<
+1>
+0?
+1@
+0@
+#320000
+0!
+0/
+08
+#340000
+1!
+1/
+18
+1,!
+09
+1:
+#360000
+0!
+0/
+08
+#380000
+1!
+1/
+18
+0,!
+1+!
+19
+#400000
+0!
+0/
+08
+#420000
+1!
+1/
+18
+1,!
+09
+0:
+1;
+1<
+#440000
+0!
+0/
+08
+#460000
+1!
+1/
+18
+0,!
+0+!
+1*!
+0<
+0=
+19
+0;
+1<
+1=
+0>
+1?
+1@
+1>
+0?
+0@
+#480000
+0!
+0/
+08
+#500000
+1!
+1/
+18
+1,!
+09
+1:
+#520000
+0!
+0/
+08
+#540000
+1!
+1/
+18
+0,!
+1+!
+19
+#560000
+0!
+0/
+08
+#580000
+1!
+1/
+18
+1,!
+09
+0:
+1;
+0<
+0=
+0>
+1?
+1@
+#600000
+0!
+0/
+08
+#620000
+1!
+1/
+18
+0,!
+0+!
+0*!
+0)!
+1(!
+0@
+0A
+1>
+0?
+1<
+1=
+19
+0;
+0<
+0>
+1@
+1A
+1B
+0B
+#640000
+0!
+0/
+08
+#660000
+1!
+1/
+18
+1,!
+09
+1:
+#680000
+0!
+0/
+08
+#700000
+1!
+1/
+18
+0,!
+1+!
+19
+#720000
+0!
+0/
+08
+#740000
+1!
+1/
+18
+1,!
+09
+0:
+1;
+1<
+#760000
+0!
+0/
+08
+#780000
+1!
+1/
+18
+0,!
+0+!
+1*!
+0<
+0=
+19
+0;
+1<
+1=
+1>
+0>
+#800000
+0!
+0/
+08
+#820000
+1!
+1/
+18
+1,!
+09
+1:
+#840000
+0!
+0/
+08
+#860000
+1!
+1/
+18
+0,!
+1+!
+19
+#880000
+0!
+0/
+08
+#900000
+1!
+1/
+18
+1,!
+09
+0:
+1;
+0<
+0=
+1>
+#920000
+0!
+0/
+08
+#940000
+1!
+1/
+18
+0,!
+0+!
+0*!
+1)!
+0>
+1?
+1<
+1=
+19
+0;
+0<
+1>
+0?
+0@
+0A
+1B
+1@
+1A
+0B
+#960000
+0!
+0/
+08
+#980000
+1!
+1/
+18
+1,!
+09
+1:
+#1000000

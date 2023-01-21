@@ -1,0 +1,185 @@
+|generador_tonos
+in_clock_tone_gen => div_gen:udd1.int_clock_div
+in_clock_tone_gen => div_gen:udd2.int_clock_div
+in_clock_tone_gen => div_gen:udd3.int_clock_div
+in_clock_tone_gen => div_gen:udd4.int_clock_div
+in_clock_tone_gen => div_gen:udd5.int_clock_div
+in_clock_tone_gen => div_gen:udd6.int_clock_div
+in_clock_tone_gen => div_gen:udd7.int_clock_div
+in_clock_tone_gen => div_gen:udd8.int_clock_div
+out_buzz_tone_gen << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generador_tonos|div_gen:udd1
+int_clock_div => contador[0].CLK
+int_clock_div => contador[1].CLK
+int_clock_div => contador[2].CLK
+int_clock_div => contador[3].CLK
+int_clock_div => contador[4].CLK
+int_clock_div => contador[5].CLK
+int_clock_div => contador[6].CLK
+int_clock_div => contador[7].CLK
+int_clock_div => contador[8].CLK
+int_clock_div => contador[9].CLK
+int_clock_div => contador[10].CLK
+int_clock_div => contador[11].CLK
+int_clock_div => contador[12].CLK
+int_clock_div => contador[13].CLK
+int_clock_div => contador[14].CLK
+int_clock_div => contador[15].CLK
+int_clock_div => contador[16].CLK
+out_clock_div <= contador[16].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generador_tonos|div_gen:udd2
+int_clock_div => contador[0].CLK
+int_clock_div => contador[1].CLK
+int_clock_div => contador[2].CLK
+int_clock_div => contador[3].CLK
+int_clock_div => contador[4].CLK
+int_clock_div => contador[5].CLK
+int_clock_div => contador[6].CLK
+int_clock_div => contador[7].CLK
+int_clock_div => contador[8].CLK
+int_clock_div => contador[9].CLK
+int_clock_div => contador[10].CLK
+int_clock_div => contador[11].CLK
+int_clock_div => contador[12].CLK
+int_clock_div => contador[13].CLK
+int_clock_div => contador[14].CLK
+int_clock_div => contador[15].CLK
+out_clock_div <= contador[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generador_tonos|div_gen:udd3
+int_clock_div => contador[0].CLK
+int_clock_div => contador[1].CLK
+int_clock_div => contador[2].CLK
+int_clock_div => contador[3].CLK
+int_clock_div => contador[4].CLK
+int_clock_div => contador[5].CLK
+int_clock_div => contador[6].CLK
+int_clock_div => contador[7].CLK
+int_clock_div => contador[8].CLK
+int_clock_div => contador[9].CLK
+int_clock_div => contador[10].CLK
+int_clock_div => contador[11].CLK
+int_clock_div => contador[12].CLK
+int_clock_div => contador[13].CLK
+int_clock_div => contador[14].CLK
+int_clock_div => contador[15].CLK
+out_clock_div <= contador[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generador_tonos|div_gen:udd4
+int_clock_div => contador[0].CLK
+int_clock_div => contador[1].CLK
+int_clock_div => contador[2].CLK
+int_clock_div => contador[3].CLK
+int_clock_div => contador[4].CLK
+int_clock_div => contador[5].CLK
+int_clock_div => contador[6].CLK
+int_clock_div => contador[7].CLK
+int_clock_div => contador[8].CLK
+int_clock_div => contador[9].CLK
+int_clock_div => contador[10].CLK
+int_clock_div => contador[11].CLK
+int_clock_div => contador[12].CLK
+int_clock_div => contador[13].CLK
+int_clock_div => contador[14].CLK
+int_clock_div => contador[15].CLK
+out_clock_div <= contador[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generador_tonos|div_gen:udd5
+int_clock_div => contador[0].CLK
+int_clock_div => contador[1].CLK
+int_clock_div => contador[2].CLK
+int_clock_div => contador[3].CLK
+int_clock_div => contador[4].CLK
+int_clock_div => contador[5].CLK
+int_clock_div => contador[6].CLK
+int_clock_div => contador[7].CLK
+int_clock_div => contador[8].CLK
+int_clock_div => contador[9].CLK
+int_clock_div => contador[10].CLK
+int_clock_div => contador[11].CLK
+int_clock_div => contador[12].CLK
+int_clock_div => contador[13].CLK
+int_clock_div => contador[14].CLK
+int_clock_div => contador[15].CLK
+out_clock_div <= contador[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generador_tonos|div_gen:udd6
+int_clock_div => contador[0].CLK
+int_clock_div => contador[1].CLK
+int_clock_div => contador[2].CLK
+int_clock_div => contador[3].CLK
+int_clock_div => contador[4].CLK
+int_clock_div => contador[5].CLK
+int_clock_div => contador[6].CLK
+int_clock_div => contador[7].CLK
+int_clock_div => contador[8].CLK
+int_clock_div => contador[9].CLK
+int_clock_div => contador[10].CLK
+int_clock_div => contador[11].CLK
+int_clock_div => contador[12].CLK
+int_clock_div => contador[13].CLK
+int_clock_div => contador[14].CLK
+int_clock_div => contador[15].CLK
+int_clock_div => contador[16].CLK
+out_clock_div <= contador[16].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generador_tonos|div_gen:udd7
+int_clock_div => contador[0].CLK
+int_clock_div => contador[1].CLK
+int_clock_div => contador[2].CLK
+int_clock_div => contador[3].CLK
+int_clock_div => contador[4].CLK
+int_clock_div => contador[5].CLK
+int_clock_div => contador[6].CLK
+int_clock_div => contador[7].CLK
+int_clock_div => contador[8].CLK
+int_clock_div => contador[9].CLK
+int_clock_div => contador[10].CLK
+int_clock_div => contador[11].CLK
+int_clock_div => contador[12].CLK
+int_clock_div => contador[13].CLK
+int_clock_div => contador[14].CLK
+int_clock_div => contador[15].CLK
+int_clock_div => contador[16].CLK
+out_clock_div <= contador[16].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generador_tonos|div_gen:udd8
+int_clock_div => contador[0].CLK
+int_clock_div => contador[1].CLK
+int_clock_div => contador[2].CLK
+int_clock_div => contador[3].CLK
+int_clock_div => contador[4].CLK
+int_clock_div => contador[5].CLK
+int_clock_div => contador[6].CLK
+int_clock_div => contador[7].CLK
+int_clock_div => contador[8].CLK
+int_clock_div => contador[9].CLK
+int_clock_div => contador[10].CLK
+int_clock_div => contador[11].CLK
+int_clock_div => contador[12].CLK
+int_clock_div => contador[13].CLK
+int_clock_div => contador[14].CLK
+int_clock_div => contador[15].CLK
+int_clock_div => contador[16].CLK
+int_clock_div => contador[17].CLK
+int_clock_div => contador[18].CLK
+int_clock_div => contador[19].CLK
+int_clock_div => contador[20].CLK
+int_clock_div => contador[21].CLK
+int_clock_div => contador[22].CLK
+int_clock_div => contador[23].CLK
+int_clock_div => contador[24].CLK
+int_clock_div => contador[25].CLK
+out_clock_div <= contador[25].DB_MAX_OUTPUT_PORT_TYPE
+
+

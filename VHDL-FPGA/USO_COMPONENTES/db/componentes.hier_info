@@ -1,0 +1,32 @@
+|componentes
+in1_sc => half_sum:udd1.in1_hs
+in2_sc => half_sum:udd1.in2_hs
+car_in => half_sum:udd2.in2_hs
+sum_ou <= half_sum:udd2.out_hs
+car_ou <= comp_or:udd3.out_or
+
+
+|componentes|half_sum:udd1
+in1_hs => out_hs.IN0
+in1_hs => car_ou.IN0
+in2_hs => out_hs.IN1
+in2_hs => car_ou.IN1
+out_hs <= out_hs.DB_MAX_OUTPUT_PORT_TYPE
+car_ou <= car_ou.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|componentes|half_sum:udd2
+in1_hs => out_hs.IN0
+in1_hs => car_ou.IN0
+in2_hs => out_hs.IN1
+in2_hs => car_ou.IN1
+out_hs <= out_hs.DB_MAX_OUTPUT_PORT_TYPE
+car_ou <= car_ou.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|componentes|comp_or:udd3
+in1_or => out_or.IN0
+in2_or => out_or.IN1
+out_or <= out_or.DB_MAX_OUTPUT_PORT_TYPE
+
+

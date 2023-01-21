@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Aug 05 22:12:19 2022
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : flip_flop_D
+Top-level Entity Name : flip_flop_D
+Family : Cyclone IV E
+Total logic elements : 2
+    Total combinational functions : 1
+    Dedicated logic registers : 2
+Total registers : 2
+Total pins : 4
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

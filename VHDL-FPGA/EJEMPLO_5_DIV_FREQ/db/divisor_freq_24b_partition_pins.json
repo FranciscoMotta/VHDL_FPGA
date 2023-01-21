@@ -1,0 +1,17 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out_freq_div",
+					"strict" : false
+				},
+				{
+					"name" : "int_clock_div",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

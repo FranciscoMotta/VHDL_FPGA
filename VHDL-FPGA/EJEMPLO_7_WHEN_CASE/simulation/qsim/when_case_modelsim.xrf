@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, D:/Escritorio/FPGA - REPASO/EJEMPLO_7_WHEN_CASE/when_case.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/Escritorio/FPGA - REPASO/EJEMPLO_7_WHEN_CASE/db/when_case.cbx.xml
+design_name = when_case
+instance = comp, \out1~output\, out1~output, when_case, 1
+instance = comp, \in3~input\, in3~input, when_case, 1
+instance = comp, \in1~input\, in1~input, when_case, 1
+instance = comp, \in2~input\, in2~input, when_case, 1
+instance = comp, \Mux0~0\, Mux0~0, when_case, 1

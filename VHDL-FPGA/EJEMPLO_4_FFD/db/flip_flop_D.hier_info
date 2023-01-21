@@ -1,0 +1,9 @@
+|flip_flop_D
+int_D => out_D~reg0.DATAIN
+int_D => out_D_n~reg0.DATAIN
+int_clk => out_D_n~reg0.CLK
+int_clk => out_D~reg0.CLK
+out_D <= out_D~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out_D_n <= out_D_n~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

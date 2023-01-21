@@ -1,0 +1,34 @@
+-- Importación de librerias 
+
+library ieee;
+
+use ieee.std_logic_1164.all; -- Multinivel
+use ieee.std_logic_arith.all; -- Matemática
+use ieee.std_logic_unsigned.all; -- Operaciones sin signo
+
+-- Entidad
+
+entity repaso_vhdl is
+port
+	(
+		entradas: in std_logic_vector(1 downto 0);
+		salidas: out std_logic_vector(3 downto 0)
+	);
+end entity repaso_vhdl;
+
+-- Arquitectura
+
+architecture func_repaso of repaso_vhdl is
+
+signal salida_no_negada : std_logic_vector(3 downto 0); -- Creamos un señal
+
+begin 
+	salida_no_negada <=  "0001" when entradas = "00" else
+								"0010" when entradas = "01" else 
+								"0100" when entradas = "10" else 
+								"1000" when entradas = "11";
+-- Asignamos las salidas negadas 
+
+	salidas <= not(salida_no_negada);
+	
+end architecture func_repaso;

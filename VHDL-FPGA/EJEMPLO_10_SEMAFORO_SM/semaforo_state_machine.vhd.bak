@@ -1,0 +1,25 @@
+-- Librerías
+
+library ieee;
+
+-- Paquetes
+
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+-- Entidad
+
+entity semaforo_state_machine is
+	port(
+	clk_freq_sem_1_hz, stop_push_sem: in std_logic; -- entradas de la FSM
+	stop_led_sem, pass_led_sem: out std_logic -- salidas de la FSM
+	);
+end entity semaforo_state_machine;
+
+-- Arquitectura
+
+architecture func_semaforo_fsm of semaforo_state_machine is
+
+begin
+end architecture func_semaforo_fsm;

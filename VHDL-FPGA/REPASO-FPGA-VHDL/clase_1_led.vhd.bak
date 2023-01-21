@@ -1,0 +1,13 @@
+-- Librerias 
+
+library IEEE;
+
+-- Paquetes
+
+use IEEE.STD_LOGIC_1164.all;
+
+-- Entidad 
+
+
+
+-- Arquitectura

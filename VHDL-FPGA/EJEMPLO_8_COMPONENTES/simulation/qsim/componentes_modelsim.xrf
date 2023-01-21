@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, D:/Escritorio/FPGA - REPASO/EJEMPLO_8_COMPONENTES/compuerta_or.vhd
+source_file = 1, D:/Escritorio/FPGA - REPASO/EJEMPLO_8_COMPONENTES/medio_sumador.vhd
+source_file = 1, D:/Escritorio/FPGA - REPASO/EJEMPLO_8_COMPONENTES/componentes.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/Escritorio/FPGA - REPASO/EJEMPLO_8_COMPONENTES/db/componentes.cbx.xml
+design_name = componentes
+instance = comp, \S~output\, S~output, componentes, 1
+instance = comp, \Co~output\, Co~output, componentes, 1
+instance = comp, \A~input\, A~input, componentes, 1
+instance = comp, \B~input\, B~input, componentes, 1
+instance = comp, \Cin~input\, Cin~input, componentes, 1
+instance = comp, \unidad_2|out1_medio1~0\, unidad_2|out1_medio1~0, componentes, 1
+instance = comp, \unidad_3|out1_or1~0\, unidad_3|out1_or1~0, componentes, 1

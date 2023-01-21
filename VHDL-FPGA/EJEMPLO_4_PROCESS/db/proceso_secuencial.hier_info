@@ -1,0 +1,5 @@
+|proceso_secuencial
+A => Z.DATAIN
+Z <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+

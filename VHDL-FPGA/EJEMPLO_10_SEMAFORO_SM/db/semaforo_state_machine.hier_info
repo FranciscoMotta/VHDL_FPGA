@@ -1,0 +1,40 @@
+|semaforo_state_machine
+clk_freq_sem_1_hz => div_freq_generic:unidad_dise1.div_gen_clock_in
+stop_push_sem => Selector0.IN2
+stop_push_sem => state_future.OUTPUTSELECT
+stop_push_sem => state_future.OUTPUTSELECT
+stop_push_sem => Selector1.IN1
+stop_led_sem <= stop_led_sem.DB_MAX_OUTPUT_PORT_TYPE
+pass_led_sem <= pass_led_sem.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|semaforo_state_machine|div_freq_generic:unidad_dise1
+div_gen_clock_in => counter[0].CLK
+div_gen_clock_in => counter[1].CLK
+div_gen_clock_in => counter[2].CLK
+div_gen_clock_in => counter[3].CLK
+div_gen_clock_in => counter[4].CLK
+div_gen_clock_in => counter[5].CLK
+div_gen_clock_in => counter[6].CLK
+div_gen_clock_in => counter[7].CLK
+div_gen_clock_in => counter[8].CLK
+div_gen_clock_in => counter[9].CLK
+div_gen_clock_in => counter[10].CLK
+div_gen_clock_in => counter[11].CLK
+div_gen_clock_in => counter[12].CLK
+div_gen_clock_in => counter[13].CLK
+div_gen_clock_in => counter[14].CLK
+div_gen_clock_in => counter[15].CLK
+div_gen_clock_in => counter[16].CLK
+div_gen_clock_in => counter[17].CLK
+div_gen_clock_in => counter[18].CLK
+div_gen_clock_in => counter[19].CLK
+div_gen_clock_in => counter[20].CLK
+div_gen_clock_in => counter[21].CLK
+div_gen_clock_in => counter[22].CLK
+div_gen_clock_in => counter[23].CLK
+div_gen_clock_in => counter[24].CLK
+div_gen_clock_in => counter[25].CLK
+div_gen_clock_out <= counter[25].DB_MAX_OUTPUT_PORT_TYPE
+
+

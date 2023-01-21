@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clock_fall_detector'
+Slack : -4.436
+TNS   : -68.096
+
+Type  : Slow 1200mV 85C Model Setup 'div_freq_generic:divisor_de_freq|counter[25]'
+Slack : -0.184
+TNS   : -0.184
+
+Type  : Slow 1200mV 85C Model Hold 'div_freq_generic:divisor_de_freq|counter[25]'
+Slack : 0.706
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_fall_detector'
+Slack : 0.743
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_fall_detector'
+Slack : -3.000
+TNS   : -41.662
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'div_freq_generic:divisor_de_freq|counter[25]'
+Slack : -1.487
+TNS   : -2.974
+
+Type  : Slow 1200mV 0C Model Setup 'clock_fall_detector'
+Slack : -4.081
+TNS   : -61.268
+
+Type  : Slow 1200mV 0C Model Setup 'div_freq_generic:divisor_de_freq|counter[25]'
+Slack : -0.084
+TNS   : -0.084
+
+Type  : Slow 1200mV 0C Model Hold 'div_freq_generic:divisor_de_freq|counter[25]'
+Slack : 0.654
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_fall_detector'
+Slack : 0.690
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_fall_detector'
+Slack : -3.000
+TNS   : -41.662
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'div_freq_generic:divisor_de_freq|counter[25]'
+Slack : -1.487
+TNS   : -2.974
+
+Type  : Fast 1200mV 0C Model Setup 'clock_fall_detector'
+Slack : -1.380
+TNS   : -15.830
+
+Type  : Fast 1200mV 0C Model Setup 'div_freq_generic:divisor_de_freq|counter[25]'
+Slack : 0.505
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'div_freq_generic:divisor_de_freq|counter[25]'
+Slack : 0.270
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock_fall_detector'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_fall_detector'
+Slack : -3.000
+TNS   : -30.670
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'div_freq_generic:divisor_de_freq|counter[25]'
+Slack : -1.000
+TNS   : -2.000
+
+------------------------------------------------------------

@@ -1,0 +1,25 @@
+|display_7_seg_mux
+ints_arduino_disp[1] => outs_arduino_disp[1].DATAIN
+ints_arduino_disp[2] => outs_arduino_disp[2].DATAIN
+ints_arduino_disp[3] => outs_arduino_disp[3].DATAIN
+ints_arduino_disp[4] => outs_arduino_disp[4].DATAIN
+ints_arduino_disp[5] => outs_arduino_disp[5].DATAIN
+ints_arduino_disp[6] => outs_arduino_disp[6].DATAIN
+ints_arduino_disp[7] => outs_arduino_disp[7].DATAIN
+ints_arduino_enab[0] => outs_arduino_enab[0].DATAIN
+ints_arduino_enab[1] => outs_arduino_enab[1].DATAIN
+ints_arduino_enab[2] => outs_arduino_enab[2].DATAIN
+ints_arduino_enab[3] => outs_arduino_enab[3].DATAIN
+outs_arduino_disp[1] << ints_arduino_disp[1].DB_MAX_OUTPUT_PORT_TYPE
+outs_arduino_disp[2] << ints_arduino_disp[2].DB_MAX_OUTPUT_PORT_TYPE
+outs_arduino_disp[3] << ints_arduino_disp[3].DB_MAX_OUTPUT_PORT_TYPE
+outs_arduino_disp[4] << ints_arduino_disp[4].DB_MAX_OUTPUT_PORT_TYPE
+outs_arduino_disp[5] << ints_arduino_disp[5].DB_MAX_OUTPUT_PORT_TYPE
+outs_arduino_disp[6] << ints_arduino_disp[6].DB_MAX_OUTPUT_PORT_TYPE
+outs_arduino_disp[7] << ints_arduino_disp[7].DB_MAX_OUTPUT_PORT_TYPE
+outs_arduino_enab[0] << ints_arduino_enab[0].DB_MAX_OUTPUT_PORT_TYPE
+outs_arduino_enab[1] << ints_arduino_enab[1].DB_MAX_OUTPUT_PORT_TYPE
+outs_arduino_enab[2] << ints_arduino_enab[2].DB_MAX_OUTPUT_PORT_TYPE
+outs_arduino_enab[3] << ints_arduino_enab[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

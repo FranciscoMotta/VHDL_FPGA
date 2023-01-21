@@ -1,0 +1,17 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out_buzz_tone_gen",
+					"strict" : false
+				},
+				{
+					"name" : "in_clock_tone_gen",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

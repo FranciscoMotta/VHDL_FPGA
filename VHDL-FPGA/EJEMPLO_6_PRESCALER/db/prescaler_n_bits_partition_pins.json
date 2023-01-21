@@ -1,0 +1,17 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out_clock_presc",
+					"strict" : false
+				},
+				{
+					"name" : "in_clock_presc",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

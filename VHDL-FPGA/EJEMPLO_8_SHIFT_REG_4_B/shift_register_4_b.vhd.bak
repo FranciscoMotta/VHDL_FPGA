@@ -1,0 +1,46 @@
+-- Librerias
+
+library ieee;
+
+-- Paquetes 
+
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+-- Entidad 
+
+entity shift_register_4_b is
+	port(
+		shift_register_clock: in std_logic; -- entrada del reloj
+		shift_register_leds: out std_logic_vector(3 downto 0); -- salida a leds
+	);
+end entity shift_register_4_b;
+
+-- Arquitectura
+
+architecture func_shift_register_4_b of shift_register_4_b is
+constant factor_escala_1_seg: integer := 50_000_000; -- Factor de escala para los 1hz
+constant numero_bits_contador: integer := 25; -- numero de bits a contar
+signal registro_de_contador: std_logic_vector (numero_bits_contador - 1 downto 0); -- registro
+
+-- Salida del preescaler
+
+signal preescaler_out: std_logic;
+
+-- prescaler de 50Mhz a 1hz
+
+preescaler_func: process (shift_register_clock)
+begin
+	if rising_edge (shift_register_clock) then
+		if (registro_de_contador = factor_escala_1_seg - 1) then
+			factor_escala_1_seg <= (others => '0'); -- reiniciamos el contador
+		else 
+			registro_de_contador <= registro_de_contador + 1;
+		end if;
+	end if;
+end process preescaler_func;
+
+preescaler_out <= registro_de_contador(numero_bits_contador - 1); -- tomamos el MSB
+
+end architecture func_shift_register_4_b;

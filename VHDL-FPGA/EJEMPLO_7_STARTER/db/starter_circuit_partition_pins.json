@@ -1,0 +1,17 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "starter_init",
+					"strict" : false
+				},
+				{
+					"name" : "starter_clock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

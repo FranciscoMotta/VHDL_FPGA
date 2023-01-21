@@ -1,0 +1,50 @@
+-- Librerías 
+
+library ieee;
+
+-- Paquetes 
+
+use ieee.std_logic_1164.all; -- Multiniveles
+use ieee.std_logic_arith.all; -- Op. Arith
+use ieee.std_logic_unsigned.all;
+
+-- Entidad 
+
+entity preescaler_mult is
+-- Puertos	
+	port(
+		preescaler_mult_clock_in: in std_logic; -- 50Mhz
+		preescaler_mult_out1_f1: out std_logic; -- 700hz
+		preescaler_mult_out2_f2: out std_logic; -- 1khz
+		preescaler_mult_out3_f3: out std_logic -- 2khz
+	);
+end entity preescaler_mult;
+
+-- Architecture
+
+architecture func_preescaler_mult of preescaler_mult is
+begin
+unidad_dis1: entity work.preescaler_N_bits(func_preescaler_n_bits)
+-- Genericos
+	generic( N_bits <= 16)
+-- Puertos	
+	port map(
+		preescaler_n_clock_in <= preescaler_mult_clock_in,
+		preescaler_n_clock_out <= preescaler_mult_out1_f1);
+		
+unidad_dis2: entity work.preescaler_N_bits(func_preescaler_n_bits)
+-- Genericos
+	generic( N_bits <= 15)
+-- Puertos	
+	port map(
+		preescaler_n_clock_in <= preescaler_mult_clock_in,
+		preescaler_n_clock_out <= preescaler_mult_out1_f2);
+		
+unidad_dis3: entity work.preescaler_N_bits(func_preescaler_n_bits)
+-- Genericos
+	generic( N_bits <= 14)
+-- Puertos	
+	port map(
+		preescaler_n_clock_in <= preescaler_mult_clock_in,
+		preescaler_n_clock_out <= preescaler_mult_out1_f3);
+end architecture func_preescaler_mult;

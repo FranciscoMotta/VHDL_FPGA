@@ -1,0 +1,25 @@
+-- Librerías
+
+library ieee;
+
+-- Paquetes
+
+use ieee.std_logic_1164.all;
+
+-- Entidad
+
+entity compuerta_and is 
+	port(
+		-- ENTRADAS Y SALIDAS
+		in1_and: in std_logic;
+		in2_and: in std_logic;
+		out1_and: out std_logic
+	);
+end compuerta_and;
+
+-- Arquitectura
+
+architecture func_comp_and of compuerta_and is
+begin
+		out1_and <= not(in1_and and in2_and); -- Lo negamos porque es lógica negatíva
+end func_comp_and;

@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sum_ou",
+					"strict" : false
+				},
+				{
+					"name" : "car_ou",
+					"strict" : false
+				},
+				{
+					"name" : "in1_sc",
+					"strict" : false
+				},
+				{
+					"name" : "in2_sc",
+					"strict" : false
+				},
+				{
+					"name" : "car_in",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

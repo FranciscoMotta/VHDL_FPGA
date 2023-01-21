@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "counter_ena_disp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "counter_ena_disp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "counter_ena_disp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "counter_ena_disp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "counter_out_disp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "counter_out_disp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "counter_out_disp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "counter_out_disp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "counter_out_disp[4]",
+					"strict" : false
+				},
+				{
+					"name" : "counter_out_disp[5]",
+					"strict" : false
+				},
+				{
+					"name" : "counter_out_disp[6]",
+					"strict" : false
+				},
+				{
+					"name" : "counter_clock_in",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,48 @@
+|fall_detector_sensor
+boton_fall_detector => type_d_ff:primer_ff_D.D_int_ff
+clock_fall_detector => div_freq_generic:divisor_de_freq.div_gen_clock_in
+flanco_fall_detector <= flanco_fall_detector.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fall_detector_sensor|div_freq_generic:divisor_de_freq
+div_gen_clock_in => counter[0].CLK
+div_gen_clock_in => counter[1].CLK
+div_gen_clock_in => counter[2].CLK
+div_gen_clock_in => counter[3].CLK
+div_gen_clock_in => counter[4].CLK
+div_gen_clock_in => counter[5].CLK
+div_gen_clock_in => counter[6].CLK
+div_gen_clock_in => counter[7].CLK
+div_gen_clock_in => counter[8].CLK
+div_gen_clock_in => counter[9].CLK
+div_gen_clock_in => counter[10].CLK
+div_gen_clock_in => counter[11].CLK
+div_gen_clock_in => counter[12].CLK
+div_gen_clock_in => counter[13].CLK
+div_gen_clock_in => counter[14].CLK
+div_gen_clock_in => counter[15].CLK
+div_gen_clock_in => counter[16].CLK
+div_gen_clock_in => counter[17].CLK
+div_gen_clock_in => counter[18].CLK
+div_gen_clock_in => counter[19].CLK
+div_gen_clock_in => counter[20].CLK
+div_gen_clock_in => counter[21].CLK
+div_gen_clock_in => counter[22].CLK
+div_gen_clock_in => counter[23].CLK
+div_gen_clock_in => counter[24].CLK
+div_gen_clock_in => counter[25].CLK
+div_gen_clock_out <= counter[25].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fall_detector_sensor|type_D_ff:primer_ff_D
+D_int_ff => Q_out_ff~reg0.DATAIN
+cLock_int_ff => Q_out_ff~reg0.CLK
+Q_out_ff <= Q_out_ff~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fall_detector_sensor|type_D_ff:segundo_ff_D
+D_int_ff => Q_out_ff~reg0.DATAIN
+cLock_int_ff => Q_out_ff~reg0.CLK
+Q_out_ff <= Q_out_ff~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

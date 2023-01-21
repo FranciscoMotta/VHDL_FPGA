@@ -1,0 +1,28 @@
+|divisor_freq_24b
+int_clock_div => counter[23].CLK
+int_clock_div => counter[22].CLK
+int_clock_div => counter[21].CLK
+int_clock_div => counter[20].CLK
+int_clock_div => counter[19].CLK
+int_clock_div => counter[18].CLK
+int_clock_div => counter[17].CLK
+int_clock_div => counter[16].CLK
+int_clock_div => counter[15].CLK
+int_clock_div => counter[14].CLK
+int_clock_div => counter[13].CLK
+int_clock_div => counter[12].CLK
+int_clock_div => counter[11].CLK
+int_clock_div => counter[10].CLK
+int_clock_div => counter[9].CLK
+int_clock_div => counter[8].CLK
+int_clock_div => counter[7].CLK
+int_clock_div => counter[6].CLK
+int_clock_div => counter[5].CLK
+int_clock_div => counter[4].CLK
+int_clock_div => counter[3].CLK
+int_clock_div => counter[2].CLK
+int_clock_div => counter[1].CLK
+int_clock_div => counter[0].CLK
+out_freq_div <= counter[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

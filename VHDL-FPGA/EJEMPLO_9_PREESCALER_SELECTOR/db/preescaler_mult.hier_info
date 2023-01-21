@@ -1,0 +1,25 @@
+|preescaler_mult
+preescaler_mult_clock_in => Mux0.IN0
+preescaler_mult_clock_in => preescaler_n_bits:unidad_dis1.preescaler_n_clock_in
+preescaler_mult_clock_in => preescaler_n_bits:unidad_dis2.preescaler_n_clock_in
+preescaler_mult_clock_in => preescaler_n_bits:unidad_dis3.preescaler_n_clock_in
+preescaler_select_in[0] => Mux0.IN2
+preescaler_select_in[1] => Mux0.IN1
+preescaler_mult_clock_out << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|preescaler_mult|preescaler_N_bits:unidad_dis1
+preescaler_n_clock_in => ~NO_FANOUT~
+preescaler_n_clock_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|preescaler_mult|preescaler_N_bits:unidad_dis2
+preescaler_n_clock_in => ~NO_FANOUT~
+preescaler_n_clock_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|preescaler_mult|preescaler_N_bits:unidad_dis3
+preescaler_n_clock_in => ~NO_FANOUT~
+preescaler_n_clock_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

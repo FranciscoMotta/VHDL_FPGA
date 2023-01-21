@@ -1,0 +1,36 @@
+|counter_display_7_seg
+in_clock_counter => counter[0].CLK
+in_clock_counter => counter[1].CLK
+in_clock_counter => counter[2].CLK
+in_clock_counter => counter[3].CLK
+in_clock_counter => counter[4].CLK
+in_clock_counter => counter[5].CLK
+in_clock_counter => counter[6].CLK
+in_clock_counter => counter[7].CLK
+in_clock_counter => counter[8].CLK
+in_clock_counter => counter[9].CLK
+in_clock_counter => counter[10].CLK
+in_clock_counter => counter[11].CLK
+in_clock_counter => counter[12].CLK
+in_clock_counter => counter[13].CLK
+in_clock_counter => counter[14].CLK
+in_clock_counter => counter[15].CLK
+in_clock_counter => counter[16].CLK
+in_clock_counter => counter[17].CLK
+in_clock_counter => counter[18].CLK
+in_clock_counter => counter[19].CLK
+in_clock_counter => counter[20].CLK
+in_clock_counter => counter[21].CLK
+in_clock_counter => counter[22].CLK
+in_clock_counter => counter[23].CLK
+en_disp_counter <= <GND>
+out_disp_counter[0] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+out_disp_counter[1] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+out_disp_counter[2] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+out_disp_counter[3] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+out_disp_counter[4] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+out_disp_counter[5] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+out_disp_counter[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+out_disp_counter[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

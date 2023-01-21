@@ -1,0 +1,136 @@
+$comment
+	File created using the following command:
+		vcd file starter_circuit.msim.vcd -direction
+$end
+$date
+	Mon Aug 08 17:03:07 2022
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module starter_circuit_vhd_vec_tst $end
+$var wire 1 ! starter_clock $end
+$var wire 1 " starter_init $end
+
+$scope module i1 $end
+$var wire 1 # gnd $end
+$var wire 1 $ vcc $end
+$var wire 1 % unknown $end
+$var wire 1 & devoe $end
+$var wire 1 ' devclrn $end
+$var wire 1 ( devpor $end
+$var wire 1 ) ww_devoe $end
+$var wire 1 * ww_devclrn $end
+$var wire 1 + ww_devpor $end
+$var wire 1 , ww_starter_clock $end
+$var wire 1 - ww_starter_init $end
+$var wire 1 . \starter_init~output_o\ $end
+$var wire 1 / \starter_clock~input_o\ $end
+$var wire 1 0 \starter_dout~q\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+0#
+1$
+x%
+1&
+1'
+1(
+1)
+1*
+1+
+1,
+0-
+0.
+1/
+00
+$end
+#50000
+0!
+0,
+0/
+#100000
+1!
+1,
+1/
+10
+1.
+1-
+1"
+#150000
+0!
+0,
+0/
+#200000
+1!
+1,
+1/
+#250000
+0!
+0,
+0/
+#300000
+1!
+1,
+1/
+#350000
+0!
+0,
+0/
+#400000
+1!
+1,
+1/
+#450000
+0!
+0,
+0/
+#500000
+1!
+1,
+1/
+#550000
+0!
+0,
+0/
+#600000
+1!
+1,
+1/
+#650000
+0!
+0,
+0/
+#700000
+1!
+1,
+1/
+#750000
+0!
+0,
+0/
+#800000
+1!
+1,
+1/
+#850000
+0!
+0,
+0/
+#900000
+1!
+1,
+1/
+#950000
+0!
+0,
+0/
+#1000000

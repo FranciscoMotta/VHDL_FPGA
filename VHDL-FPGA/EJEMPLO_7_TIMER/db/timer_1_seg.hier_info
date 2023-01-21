@@ -1,0 +1,30 @@
+|timer_1_seg
+timer_in_clock => counter_signal[0].CLK
+timer_in_clock => counter_signal[1].CLK
+timer_in_clock => counter_signal[2].CLK
+timer_in_clock => counter_signal[3].CLK
+timer_in_clock => counter_signal[4].CLK
+timer_in_clock => counter_signal[5].CLK
+timer_in_clock => counter_signal[6].CLK
+timer_in_clock => counter_signal[7].CLK
+timer_in_clock => counter_signal[8].CLK
+timer_in_clock => counter_signal[9].CLK
+timer_in_clock => counter_signal[10].CLK
+timer_in_clock => counter_signal[11].CLK
+timer_in_clock => counter_signal[12].CLK
+timer_in_clock => counter_signal[13].CLK
+timer_in_clock => counter_signal[14].CLK
+timer_in_clock => counter_signal[15].CLK
+timer_in_clock => counter_signal[16].CLK
+timer_in_clock => counter_signal[17].CLK
+timer_in_clock => counter_signal[18].CLK
+timer_in_clock => counter_signal[19].CLK
+timer_in_clock => counter_signal[20].CLK
+timer_in_clock => counter_signal[21].CLK
+timer_in_clock => counter_signal[22].CLK
+timer_in_clock => counter_signal[23].CLK
+timer_in_clock => counter_signal[24].CLK
+timer_in_clock => counter_signal[25].CLK
+timer_out_clck <= counter_signal[25].DB_MAX_OUTPUT_PORT_TYPE
+
+
