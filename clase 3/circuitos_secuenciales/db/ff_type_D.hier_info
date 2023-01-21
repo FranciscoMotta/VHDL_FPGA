@@ -1,0 +1,9 @@
+|ff_type_D
+reloj => Qn~reg0.CLK
+reloj => Q~reg0.CLK
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q << Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn << Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

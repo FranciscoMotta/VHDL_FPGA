@@ -1,0 +1,19 @@
+-- Paquetes
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+-- Entidad
+
+entity fan_controller is
+	port (p1, p2, selec: in std_logic;
+			fan1, fan2: out std_logic);
+end fan_controller;
+
+-- Arquitectura
+
+architecture func_fans of fan_controlller is
+	begin
+			fan1 <= p1 and (not(p2) or selec);
+			fan2 <= p2 and (not(p1) or selec);
+end func_fans;

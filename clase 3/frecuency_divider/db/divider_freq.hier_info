@@ -1,0 +1,30 @@
+|divider_freq
+entrada_reloj => vector_cuenta[0].CLK
+entrada_reloj => vector_cuenta[1].CLK
+entrada_reloj => vector_cuenta[2].CLK
+entrada_reloj => vector_cuenta[3].CLK
+entrada_reloj => vector_cuenta[4].CLK
+entrada_reloj => vector_cuenta[5].CLK
+entrada_reloj => vector_cuenta[6].CLK
+entrada_reloj => vector_cuenta[7].CLK
+entrada_reloj => vector_cuenta[8].CLK
+entrada_reloj => vector_cuenta[9].CLK
+entrada_reloj => vector_cuenta[10].CLK
+entrada_reloj => vector_cuenta[11].CLK
+entrada_reloj => vector_cuenta[12].CLK
+entrada_reloj => vector_cuenta[13].CLK
+entrada_reloj => vector_cuenta[14].CLK
+entrada_reloj => vector_cuenta[15].CLK
+entrada_reloj => vector_cuenta[16].CLK
+entrada_reloj => vector_cuenta[17].CLK
+entrada_reloj => vector_cuenta[18].CLK
+entrada_reloj => vector_cuenta[19].CLK
+entrada_reloj => vector_cuenta[20].CLK
+entrada_reloj => vector_cuenta[21].CLK
+entrada_reloj => vector_cuenta[22].CLK
+entrada_reloj => vector_cuenta[23].CLK
+entrada_reloj => vector_cuenta[24].CLK
+entrada_reloj => vector_cuenta[25].CLK
+salida_reloj << vector_cuenta[25].DB_MAX_OUTPUT_PORT_TYPE
+
+

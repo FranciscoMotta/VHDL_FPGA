@@ -1,0 +1,8 @@
+-- DIVISORES DE FRECUECIAS
+-- 						RELOJ DE ENTRADA           RELOJ DE SALIDA
+
+-- FRECUENCIA					Fin						 Fout = Fin/M
+	
+-- PERIODO                 Tin                   Tout = Tin*M
+
+-- De donde el número de bits a usar es N = LOG2(M) y tomamos el bit MSB

@@ -1,0 +1,8 @@
+|mux_basic
+ints[0] => outs.IN0
+ints[1] => outs.IN0
+selec => outs.IN1
+selec => outs.IN1
+outs << outs.DB_MAX_OUTPUT_PORT_TYPE
+
+

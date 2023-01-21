@@ -1,0 +1,154 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Escritorio/FPGA - CLASE/clase 3/counter_bits/simulation/qsim
+Ecounter_bits
+Z1 w1641658129
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 76OUjOFMM1Jzd<9936DA;3
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 dANj__M<MaN@;H9Tkm=iP1
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 H5F:RRfLz82T3`4>@b7mS3
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 DPx6 altera 28 altera_primitives_components 0 22 VSD=32;3391kSOd?PDZYj3
+!i122 0
+R0
+Z10 8counter_bits.vho
+Z11 Fcounter_bits.vho
+l0
+L80 1
+VIa3gE`1QPE1hX6Wc1[k1C3
+!s100 6RgfPIMmoRn6PRjP]N>c20
+Z12 OV;C;2020.1;71
+32
+Z13 !s110 1641658134
+!i10b 1
+Z14 !s108 1641658133.000000
+Z15 !s90 -work|work|counter_bits.vho|
+Z16 !s107 counter_bits.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 12 counter_bits 0 22 Ia3gE`1QPE1hX6Wc1[k1C3
+!i122 0
+l127
+L95 245
+VQ;?1IJz0`zB:eenY7JVC30
+!s100 QoYPMmJ7c]c]<fVQ?Jcz20
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Ecounter_bits_vhd_vec_tst
+Z19 w1641658128
+R7
+R8
+!i122 1
+R0
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L32 1
+V_=LfPS4YhXM2RK3Yo16eG1
+!s100 3mS28F^CoIMoJ4UmkA8^90
+R12
+32
+R13
+!i10b 1
+Z22 !s108 1641658134.000000
+Z23 !s90 -work|work|Waveform.vwf.vht|
+!s107 Waveform.vwf.vht|
+!i113 1
+R17
+R18
+Acounter_bits_arch
+R7
+R8
+DEx4 work 24 counter_bits_vhd_vec_tst 0 22 _=LfPS4YhXM2RK3Yo16eG1
+!i122 1
+l45
+L34 31
+VFbogm^O@La>JKSa9kTG=H0
+!s100 34WT3U?Sog;0X7CX8KUHS3
+R12
+32
+R13
+!i10b 1
+R22
+R23
+Z24 !s107 Waveform.vwf.vht|
+!i113 1
+R17
+R18
+Ehard_block
+R1
+R4
+R2
+R6
+R7
+R8
+R3
+!i122 0
+R0
+R10
+R11
+l0
+L35 1
+VB]0;STalBkCB1_B4BXQDW2
+!s100 >mXi5[`cD`bFC`UBKA<om3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Astructure
+R4
+R2
+R6
+R7
+R8
+R3
+DEx4 work 10 hard_block 0 22 B]0;STalBkCB1_B4BXQDW2
+!i122 0
+l65
+L51 20
+Via>5o7W??azG@W@@eFOTF0
+!s100 [5;Wd8QGQ>@2NGoJ1I]Y43
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18

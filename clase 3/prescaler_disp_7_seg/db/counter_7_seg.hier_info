@@ -1,0 +1,37 @@
+|counter_7_seg
+reloj_int => contador[0].CLK
+reloj_int => contador[1].CLK
+reloj_int => contador[2].CLK
+reloj_int => contador[3].CLK
+reloj_int => contador[4].CLK
+reloj_int => contador[5].CLK
+reloj_int => contador[6].CLK
+reloj_int => contador[7].CLK
+reloj_int => contador[8].CLK
+reloj_int => contador[9].CLK
+reloj_int => contador[10].CLK
+reloj_int => contador[11].CLK
+reloj_int => contador[12].CLK
+reloj_int => contador[13].CLK
+reloj_int => contador[14].CLK
+reloj_int => contador[15].CLK
+reloj_int => contador[16].CLK
+reloj_int => contador[17].CLK
+reloj_int => contador[18].CLK
+reloj_int => contador[19].CLK
+reloj_int => contador[20].CLK
+reloj_int => contador[21].CLK
+reloj_int => contador[22].CLK
+reloj_int => contador[23].CLK
+reloj_int => contador[24].CLK
+seg_7[0] << Mux6.DB_MAX_OUTPUT_PORT_TYPE
+seg_7[1] << Mux5.DB_MAX_OUTPUT_PORT_TYPE
+seg_7[2] << Mux4.DB_MAX_OUTPUT_PORT_TYPE
+seg_7[3] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+seg_7[4] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+seg_7[5] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+seg_7[6] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+seg_7[7] << <VCC>
+enable << <GND>
+
+

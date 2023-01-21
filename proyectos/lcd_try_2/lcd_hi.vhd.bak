@@ -1,0 +1,38 @@
+-- Paquetes 
+
+library ieee;
+
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+-- Entidad 
+
+entity lcd_hi is
+	port( entrada_reloj: in std_logic; 
+			rs, en, salida_reloj: out std_logic;
+			data: out std_logic_vector (7 downto 0)
+		 );
+end lcd_hi;
+
+-- Arquitectura
+
+architecture func_lcd of lcd_hi is
+signal out_div: std_logic := '0'; -- Señal de salida de la frecuencia dividida
+constant bits: integer := 13;
+signal contador: std_logic_vector (bits - 1 downto 0);
+constant factor: integer := 5_000; -- factor de cuenta para los 10khz
+begin
+	div_freq: process (entrada_reloj)
+	begin
+		if rising_edge(entrada_reloj) then
+			if contador = (factor - 1) then
+				out_div <= not(out_div);
+				contadot <= 0;
+			else 
+				contador <= contador + 1;
+			end if;
+		end if;
+	end process;
+	salida_reloj <= temporal;
+end func_lcd;

@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, D:/Escritorio/FPGA - CLASE/clase 2/Algorithm_style/algorithm_style_process.vhd
+source_file = 1, D:/Escritorio/FPGA - CLASE/clase 2/Algorithm_style/Waveform.vwf
+source_file = 1, d:/quartus20/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/quartus20/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/quartus20/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/quartus20/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/Escritorio/FPGA - CLASE/clase 2/Algorithm_style/db/algorithm_style_process.cbx.xml
+design_name = hard_block
+design_name = algorithm_style_process
+instance = comp, \F~output\, F~output, algorithm_style_process, 1
+instance = comp, \A~input\, A~input, algorithm_style_process, 1

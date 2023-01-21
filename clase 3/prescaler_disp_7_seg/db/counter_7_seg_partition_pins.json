@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "seg_7[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_7[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_7[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_7[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_7[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_7[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_7[6]",
+					"strict" : false
+				},
+				{
+					"name" : "reloj_int",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

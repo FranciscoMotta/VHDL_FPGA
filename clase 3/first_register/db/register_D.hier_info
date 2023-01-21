@@ -1,0 +1,15 @@
+|register_D
+entrada_reloj => datos_salida[0]~reg0.CLK
+entrada_reloj => datos_salida[1]~reg0.CLK
+entrada_reloj => datos_salida[2]~reg0.CLK
+entrada_reloj => datos_salida[3]~reg0.CLK
+datos_entrada[0] => datos_salida[0]~reg0.DATAIN
+datos_entrada[1] => datos_salida[1]~reg0.DATAIN
+datos_entrada[2] => datos_salida[2]~reg0.DATAIN
+datos_entrada[3] => datos_salida[3]~reg0.DATAIN
+datos_salida[0] <= datos_salida[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+datos_salida[1] <= datos_salida[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+datos_salida[2] <= datos_salida[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+datos_salida[3] <= datos_salida[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

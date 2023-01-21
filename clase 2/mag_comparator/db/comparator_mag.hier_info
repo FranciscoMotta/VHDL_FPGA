@@ -1,0 +1,30 @@
+|comparator_mag
+inputs1[0] => LessThan0.IN4
+inputs1[0] => Equal0.IN3
+inputs1[0] => LessThan1.IN4
+inputs1[1] => LessThan0.IN3
+inputs1[1] => Equal0.IN2
+inputs1[1] => LessThan1.IN3
+inputs1[2] => LessThan0.IN2
+inputs1[2] => Equal0.IN1
+inputs1[2] => LessThan1.IN2
+inputs1[3] => LessThan0.IN1
+inputs1[3] => Equal0.IN0
+inputs1[3] => LessThan1.IN1
+inputs2[0] => LessThan0.IN8
+inputs2[0] => Equal0.IN7
+inputs2[0] => LessThan1.IN8
+inputs2[1] => LessThan0.IN7
+inputs2[1] => Equal0.IN6
+inputs2[1] => LessThan1.IN7
+inputs2[2] => LessThan0.IN6
+inputs2[2] => Equal0.IN5
+inputs2[2] => LessThan1.IN6
+inputs2[3] => LessThan0.IN5
+inputs2[3] => Equal0.IN4
+inputs2[3] => LessThan1.IN5
+mayor_igual_menor[0] <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+mayor_igual_menor[1] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+mayor_igual_menor[2] <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,26 @@
+-- PAQUETES
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+-- ENTIDAD
+
+entity mux_basic is
+
+	port( ints: in std_logic_vector (1 downto 0);
+			selector: in std_logic;
+			outs: out std_logic
+		 );
+
+end mux_basic
+
+-- ARQUITECTURA
+
+
+architecture func_mux_basic of mux_basic is
+	begin
+		
+		outs <= '1' when (not(selector) and ints(0)) else
+				  '0';
+	
+end func_mux_basic

@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Escritorio/FPGA - CLASE/proyectos/lcd_try_2/simulation/qsim
+Elcd_hi
+Z1 w1642092840
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 76OUjOFMM1Jzd<9936DA;3
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 dANj__M<MaN@;H9Tkm=iP1
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 H5F:RRfLz82T3`4>@b7mS3
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 DPx6 altera 28 altera_primitives_components 0 22 VSD=32;3391kSOd?PDZYj3
+!i122 4
+R0
+Z10 8lcd_hi.vho
+Z11 Flcd_hi.vho
+l0
+L37 1
+V^1?O^4ZR<;JG`@llEAz;W2
+!s100 BOCAiPKoNobFXK:OfkESd2
+Z12 OV;C;2020.1;71
+32
+Z13 !s110 1642092841
+!i10b 1
+Z14 !s108 1642092841.000000
+Z15 !s90 -work|work|lcd_hi.vho|
+Z16 !s107 lcd_hi.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 6 lcd_hi 0 22 ^1?O^4ZR<;JG`@llEAz;W2
+!i122 4
+l112
+L47 776
+Vl:PO<6YkWNI5cVV3Dc]df2
+!s100 9Am^3[YEUTdW;@kV3cA363
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Elcd_hi_vhd_vec_tst
+Z19 w1642092838
+R7
+R8
+!i122 5
+R0
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L32 1
+VkK^@S=[nfWYzOPZ25[0<23
+!s100 5nE0HOi:jQ^a37F]P2^?J3
+R12
+32
+R13
+!i10b 1
+R14
+Z22 !s90 -work|work|Waveform.vwf.vht|
+Z23 !s107 Waveform.vwf.vht|
+!i113 1
+R17
+R18
+Alcd_hi_arch
+R7
+R8
+Z24 DEx4 work 18 lcd_hi_vhd_vec_tst 0 22 kK^@S=[nfWYzOPZ25[0<23
+!i122 5
+l51
+Z25 L34 40
+V847:9IX>5_247FY:UJ`<03
+!s100 9LnYTbVb9R50VE8FE:MTd1
+R12
+32
+R13
+!i10b 1
+R14
+R22
+R23
+!i113 1
+R17
+R18

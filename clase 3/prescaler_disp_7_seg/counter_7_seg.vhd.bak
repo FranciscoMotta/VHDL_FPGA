@@ -1,0 +1,37 @@
+-- Paquetes
+
+library ieee;
+
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+-- LOGICA:
+
+-- RELOJ(50MHZ) -> PRESCALER (FREQ/2^N) -> RELOG_OUT(1HZ)
+-- ->RELO_OUT(1HZ) -> CONTADOR(4BITS) -> DECODIFICADOR(BCD -> 7 SEG) -> DISPLAY
+
+
+-- Entidad 
+
+entity counter_7_seg is
+	port(
+		reloj_int: in std_logic; -- Definición del PREESCALER
+		reloj_out: out std_logic
+	);
+end counter_7_seg;
+
+-- Arquitectura
+
+architecture func_counter_decoder of counter_7_Seg is
+constant bits: integer := 25;
+signal contador: std_logic_vector (bits - 1 downto 0);
+begin
+	contador: process(reloj_int)
+	begin
+		if rising_edge(reloj_int) then
+			contador <= contador + 1;
+		end if;
+	end process; 
+	reloj_out <= contador (bits - 1);
+end func_counter_decoder;

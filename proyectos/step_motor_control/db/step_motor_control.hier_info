@@ -1,0 +1,41 @@
+|step_motor_control
+reloj_in => contador[0].CLK
+reloj_in => contador[1].CLK
+reloj_in => contador[2].CLK
+reloj_in => contador[3].CLK
+reloj_in => contador[4].CLK
+reloj_in => contador[5].CLK
+reloj_in => contador[6].CLK
+reloj_in => contador[7].CLK
+reloj_in => contador[8].CLK
+reloj_in => contador[9].CLK
+reloj_in => contador[10].CLK
+reloj_in => contador[11].CLK
+reloj_in => contador[12].CLK
+reloj_in => contador[13].CLK
+reloj_in => contador[14].CLK
+reloj_in => contador[15].CLK
+reloj_in => contador[16].CLK
+reloj_in => contador[17].CLK
+reloj_in => contador[18].CLK
+reloj_in => contador[19].CLK
+reloj_in => contador[20].CLK
+reloj_in => contador[21].CLK
+reloj_in => contador[22].CLK
+reloj_in => contador[23].CLK
+reloj_in => contador[24].CLK
+enable_disp <= <GND>
+display_7_seg[0] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+display_7_seg[1] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+display_7_seg[2] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+display_7_seg[3] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+display_7_seg[4] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+display_7_seg[5] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+display_7_seg[6] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+display_7_seg[7] <= <VCC>
+salida_step[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+salida_step[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+salida_step[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+salida_step[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

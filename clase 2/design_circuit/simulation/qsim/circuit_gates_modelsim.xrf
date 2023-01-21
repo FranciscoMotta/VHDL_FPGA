@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, D:/Escritorio/FPGA - CLASE/clase 2/design_circuit/circuit_gates.vhd
+source_file = 1, D:/Escritorio/FPGA - CLASE/clase 2/design_circuit/Waveform.vwf
+source_file = 1, d:/quartus20/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/quartus20/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/quartus20/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/quartus20/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/Escritorio/FPGA - CLASE/clase 2/design_circuit/db/circuit_gates.cbx.xml
+design_name = hard_block
+design_name = circuit_gates
+instance = comp, \S1~output\, S1~output, circuit_gates, 1
+instance = comp, \S2~output\, S2~output, circuit_gates, 1
+instance = comp, \W~input\, W~input, circuit_gates, 1
+instance = comp, \Y~input\, Y~input, circuit_gates, 1
+instance = comp, \Z~input\, Z~input, circuit_gates, 1
+instance = comp, \X~input\, X~input, circuit_gates, 1
+instance = comp, \S1~0\, S1~0, circuit_gates, 1

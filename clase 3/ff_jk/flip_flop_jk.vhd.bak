@@ -1,0 +1,25 @@
+-- PAQUETE
+library ieee;
+use ieee.std_logic_1164;
+
+-- Entidad 
+
+entity flip_flop_jk is
+	port(
+		J, K, reloj: in std_logic;
+		Q, Qn: out std_logic
+	);
+end flip_flop_jk;
+
+-- Arquitectura
+
+architecture func_jk of flip_flop_jk is
+begin
+	JK_FUNC: process (reloj) -- creamos el proceso
+	begin
+		if rising_edge(reloj) then
+			with J select Q <= '1' when '1',
+									 '0' when others;
+		end if;
+	end process;
+end func_jk;

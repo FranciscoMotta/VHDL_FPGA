@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "outs",
+					"strict" : false
+				},
+				{
+					"name" : "e3",
+					"strict" : false
+				},
+				{
+					"name" : "selec[1]",
+					"strict" : false
+				},
+				{
+					"name" : "e2",
+					"strict" : false
+				},
+				{
+					"name" : "selec[0]",
+					"strict" : false
+				},
+				{
+					"name" : "e1",
+					"strict" : false
+				},
+				{
+					"name" : "e4",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
